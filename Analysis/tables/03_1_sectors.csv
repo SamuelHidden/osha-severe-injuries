@@ -1,0 +1,23 @@
+﻿sector,cases,pct,sector_ru,sector_en
+31-33,34472,32.52,Обрабатывающая промышленность,Manufacturing
+23,19021,17.95,Строительство,Construction
+48-49,9381,8.85,Транспорт и складирование,Transportation & warehousing
+44-45,8111,7.65,Розничная торговля,Retail trade
+42,6121,5.77,Оптовая торговля,Wholesale trade
+56,5910,5.58,"Адм. услуги, утилизация отходов",Admin. support & waste mgmt
+62,5018,4.73,"Здравоохранение, соц. помощь",Health care & social assistance
+21,2843,2.68,"Добыча полезных ископаемых, нефти, газа","Mining, oil & gas"
+72,2166,2.04,Гостиницы и общепит,Accommodation & food services
+81,2028,1.91,Прочие услуги,Other services
+11,1895,1.79,"Сельское, лесное хозяйство, рыболовство","Agriculture, forestry, fishing"
+54,1748,1.65,Профессиональные и научно-техн. услуги,Professional & technical services
+22,1429,1.35,Коммунальные услуги,Utilities
+71,1387,1.31,"Искусство, развлечения, отдых","Arts, entertainment, recreation"
+92,1354,1.28,Государственное управление,Public administration
+53,1206,1.14,"Недвижимость, прокат техники и транспорта","Real estate, rental & leasing"
+51,979,0.92,Информация и связь,Information
+61,527,0.5,Образование,Educational services
+52,322,0.3,Финансы и страхование,Finance & insurance
+55,46,0.04,Управление компаниями,Management of companies
+99,30,0.03,Не классифицировано,Nonclassifiable
+нет кода,2,0.0,Нет кода,No code

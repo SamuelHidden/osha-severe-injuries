@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Источники травмы · OSHA</title>
+  <meta name="description" content="Что причиняет тяжёлые производственные травмы в США: основные и вторичные источники, 2015–2025.">
+  <script>try{var t=localStorage.getItem('report-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TP</span><span class="brand-text">Тяжёлые травмы · OSHA</span></a>
+      <nav class="nav" aria-label="Дашборды">
+        <a href="index.html">Обзор</a>
+        <a href="01_body_parts.html">Части тела</a>
+        <a href="02_sources.html" aria-current="page">Источники</a>
+        <a href="03_industries.html">Отрасли</a>
+        <a href="04_seasons.html">Сезоны</a>
+        <a href="05_nature.html">Типы травм</a>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="Тема"></button>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Дашборд 2 · Источники травмы</p>
+      <h1>Что причиняет тяжёлые травмы</h1>
+      <p class="lede">
+        <strong>Основной источник</strong> — объект или вещество, которое непосредственно причинило травму.
+        <strong>Вторичный</strong> — то, что ей способствовало: например, пол, на который упал работник, или лёд, на котором он поскользнулся.
+      </p>
+    </header>
+
+    <section class="grid kpis" id="kpis" aria-label="Ключевые показатели"></section>
+
+    <div class="grid cols-2">
+      <section class="card" id="card-top" aria-labelledby="h-top">
+        <div class="card-head">
+          <div>
+            <h2 id="h-top">Топ-15 основных источников</h2>
+            <p class="sub" id="sub-top"></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Source · одинаковые названия под разными кодами объединены</span><span><code>02_1_top_sources.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-secondary" aria-labelledby="h-secondary">
+        <div class="card-head">
+          <div>
+            <h2 id="h-secondary">Топ-15 вторичных источников</h2>
+            <p class="sub" id="sub-secondary"></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Secondary Source · без пустых значений и заглушек 990/991</span><span><code>02_2_top_secondary_sources.csv</code></span></div>
+      </section>
+    </div>
+
+    <div class="grid cols-2">
+      <section class="card" id="card-divisions" aria-labelledby="h-divisions">
+        <div class="card-head">
+          <div>
+            <h2 id="h-divisions">Разделы источников: основной и вторичный</h2>
+            <p class="sub">Основной — % от всех случаев, вторичный — % от случаев, где он указан</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div id="divisions-legend"></div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Раздел OIICS — первая цифра кода источника</span><span><code>02_4_source_divisions.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-years" aria-labelledby="h-years">
+        <div class="card-head">
+          <div>
+            <h2 id="h-years">Крупные группы основных источников по годам</h2>
+            <p class="sub">% случаев за год · * 2025 — январь–ноябрь</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Группы по ключевым словам в названии: смена кодов OIICS в 2024 году их не затрагивает</span><span><code>02_7_source_groups_by_year.csv</code></span></div>
+      </section>
+    </div>
+
+    <section class="card insights" aria-labelledby="h-insights">
+      <div class="card-head"><h2 id="h-insights">Главное</h2></div>
+      <ol id="insights" class="two-col"></ol>
+      <div class="note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        <div>
+          <p id="note-secondary"></p>
+          <p>С 2024 года код <em>Floor, n.e.c.</em> заменён на <em>Other constructed surface</em>, а <em>Heat-environmental</em> — на <em>Heat environmental</em>. Поэтому рейтинги по точным названиям до и после 2024 года несопоставимы, и динамику лучше смотреть по укрупнённым группам.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Данные: OSHA Severe Injury Reports · <span id="period"></span></span>
+      <span id="built"></span>
+    </footer>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/charts.js"></script>
+  <script>
+    (function () {
+      const D = window.REPORT_DATA;
+      const S = D.sources;
+      const total = D.meta.total;
+      const { fmt, casesWord, h, tt } = Report;
+
+      // Основной источник — всегда синий, вторичный — всегда оранжевый
+      const SRC = 'var(--c1)';
+      const SEC = 'var(--c2)';
+      const TOP_N = 15;
+      const div = Object.fromEntries(S.divisions.map((d) => [d.code, d]));
+      const G = S.groupsByYear;
+      const group = (word) => G.series.find((sr) => sr.name.includes(word));
+      const rich = (text) => text.split(/\*\*(.+?)\*\*/g).map((part, i) => (i % 2 ? h('strong', { text: part }) : part));
+
+      document.getElementById('period').textContent = D.meta.period;
+      document.getElementById('built').textContent = `Собрано ${D.meta.built} · Report/build.py`;
+      document.getElementById('sub-top').textContent = `Число случаев и доля от всех ${fmt.int(total)} травм`;
+      document.getElementById('sub-secondary').textContent = `Доля — от ${fmt.int(S.secondaryTotal)} ${casesWord(S.secondaryTotal)}, где вторичный источник указан`;
+      const filled = S.secondaryFilledByYear;
+      const filledYears = Object.keys(filled).map(Number).sort();
+      document.getElementById('note-secondary').textContent =
+        `Вторичный источник указан только в ${fmt.pct(S.secondaryFilledPct)} случаев. Заполненность поля росла: ` +
+        `${fmt.pct(filled[filledYears[0]])} в ${filledYears[0]} году, ${fmt.pct(filled[filledYears.at(-1)])} в ${filledYears.at(-1)}. ` +
+        `С 2024 года пустые значения заменены заглушками 990/991.`;
+
+      // ---------- KPI ----------
+      const kpi = ({ label, value, unit, note, spark }) => {
+        const tile = h('div', { class: 'card kpi' },
+          h('span', { class: 'kpi-label', text: label }),
+          h('span', { class: 'kpi-value' }, value, unit ? h('small', { text: unit }) : null),
+          h('span', { class: 'kpi-note', text: note }));
+        if (spark) {
+          const box = h('div', { class: 'kpi-spark' });
+          tile.append(box);
+          requestAnimationFrame(() => Report.sparkline(box, { values: spark, color: SRC }));
+          new ResizeObserver(() => Report.sparkline(box, { values: spark, color: SRC })).observe(box);
+        }
+        return tile;
+      };
+
+      const floors = group('Полы');
+      const forklifts = group('Погрузчики');
+      const machinery = div['3'];
+      const first = G.years[0];
+      const last = G.years[G.years.length - 1];
+      document.getElementById('kpis').append(
+        kpi({
+          label: 'Полы, проходы, поверхности',
+          value: fmt.num(G.periodPct[floors.name]),
+          unit: '%',
+          note: `основных источников · ${fmt.pct(floors.values[0])} в ${first} → ${fmt.pct(floors.values.at(-1))} в ${last}`,
+          spark: floors.values,
+        }),
+        kpi({
+          label: 'Машины и механизмы',
+          value: fmt.num(machinery.pctSource),
+          unit: '%',
+          note: `крупнейший раздел основных источников; среди вторичных — ${fmt.pct(machinery.pctSecondary)}`,
+        }),
+        kpi({
+          label: 'Погрузчики и паллетные тележки',
+          value: fmt.num(G.periodPct[forklifts.name]),
+          unit: '%',
+          note: 'основных источников · вилочные погрузчики, комплектовщики, тележки',
+        }),
+        kpi({
+          label: 'Вторичный источник указан',
+          value: fmt.num(S.secondaryFilledPct),
+          unit: '%',
+          note: `${fmt.int(S.secondaryTotal)} из ${fmt.int(total)} случаев`,
+        })
+      );
+
+      // ---------- Рейтинги источников ----------
+      const rankedCard = (id, rows, color, shareLabel) =>
+        Report.card(id, {
+          render: (el) =>
+            Report.hbar(el, {
+              rows: rows.map((r) => ({
+                data: r,
+                label: r.ru,
+                rank: r.rank,
+                values: [{ value: r.cases, color, text: fmt.int(r.cases), extra: fmt.pct(r.pct) }],
+              })),
+              tip: ({ data: r }) => {
+                const rolePct = S.secondaryShare[r.en];
+                return [
+                  tt.title(r.ru),
+                  tt.sub(r.en),
+                  tt.kv('Случаев', fmt.int(r.cases)),
+                  tt.kv(shareLabel, fmt.pct(r.pct)),
+                  tt.kv('Раздел', div[r.division]?.ru ?? '—'),
+                  tt.kv('Код OIICS', r.codes),
+                  rolePct != null ? tt.kv('Упоминаний во вторичной роли', fmt.pct(rolePct)) : null,
+                ].filter(Boolean);
+              },
+            }),
+          table: {
+            columns: [
+              { label: '№', num: true, value: (r) => String(r.rank) },
+              { label: 'Источник', value: (r) => r.ru, sub: (r) => r.en },
+              { label: 'Раздел', value: (r) => div[r.division]?.ru ?? '—' },
+              { label: 'Код OIICS', value: (r) => r.codes },
+              { label: 'Случаев', num: true, value: (r) => fmt.int(r.cases) },
+              { label: 'Доля', num: true, value: (r) => fmt.pct(r.pct) },
+            ],
+            rows,
+          },
+        });
+
+      rankedCard('card-top', S.top.slice(0, TOP_N), SRC, 'Доля от всех травм');
+      rankedCard('card-secondary', S.secondary.slice(0, TOP_N), SEC, 'Доля от случаев с вторичным');
+
+      // ---------- Разделы: основной и вторичный рядом ----------
+      document.getElementById('divisions-legend').append(
+        Report.legend([
+          { key: 'src', label: 'Основной источник', color: SRC },
+          { key: 'sec', label: 'Вторичный источник', color: SEC },
+        ])
+      );
+      Report.card('card-divisions', {
+        render: (el) =>
+          Report.hbar(el, {
+            rank: false,
+            thin: true,
+            reserve: '3.4rem',
+            rows: S.divisions.map((d) => ({
+              data: d,
+              label: d.ru,
+              values: [
+                { value: d.pctSource, color: SRC, text: fmt.pct(d.pctSource), name: 'основной' },
+                { value: d.pctSecondary, color: SEC, text: fmt.pct(d.pctSecondary), name: 'вторичный' },
+              ],
+            })),
+            tip: ({ data: d }) => [
+              tt.title(d.ru),
+              tt.sub(d.en),
+              tt.series(SRC, fmt.pct(d.pctSource), `основной · ${fmt.int(d.source)} ${casesWord(d.source)}`, 'rect'),
+              tt.series(SEC, fmt.pct(d.pctSecondary), `вторичный · ${fmt.int(d.secondary)} ${casesWord(d.secondary)}`, 'rect'),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'Раздел', value: (d) => d.ru, sub: (d) => d.en },
+            { label: 'Основной, случаев', num: true, value: (d) => fmt.int(d.source) },
+            { label: 'Основной, %', num: true, value: (d) => fmt.pct(d.pctSource) },
+            { label: 'Вторичный, случаев', num: true, value: (d) => fmt.int(d.secondary) },
+            { label: 'Вторичный, %', num: true, value: (d) => fmt.pct(d.pctSecondary) },
+          ],
+          rows: S.divisions,
+        },
+      });
+
+      // ---------- Группы источников по годам ----------
+      const partial = (y) => y === G.partialYear;
+      Report.card('card-years', {
+        responsive: true,
+        render: (el) =>
+          Report.lineChart(el, {
+            x: G.years,
+            series: G.series.map((sr, i) => ({ key: String(i), name: sr.name, color: `var(--c${i + 1})`, values: sr.values })),
+            yFormat: (v) => `${fmt.int(v)}%`,
+            valueFormat: (v) => fmt.pct(v),
+            xLabel: (y) => (partial(y) ? `${y}*` : String(y)),
+            xTitle: (y) => (partial(y) ? `${y} (январь–ноябрь)` : String(y)),
+          }),
+        table: {
+          columns: [
+            { label: 'Год', value: (r) => (partial(r.year) ? `${r.year}*` : String(r.year)) },
+            ...G.series.map((sr, i) => ({ label: sr.name, num: true, value: (r) => fmt.pct(r.values[i]) })),
+          ],
+          rows: G.years.map((year, k) => ({ year, values: G.series.map((sr) => sr.values[k]) })),
+        },
+      });
+
+      // ---------- Выводы ----------
+      const surfaces = div['6'];
+      const ice = S.secondary.find((r) => r.en === 'Ice, sleet, snow');
+      const iceRole = S.secondaryShare['Ice, sleet, snow'];
+      const insights = [
+        `**Полы и поверхности — главный источник.** «${S.top[0].ru}» — первое место среди основных источников, ` +
+          `«${S.secondary[0].ru}» — среди вторичных. Вся группа полов и поверхностей — ${fmt.pct(G.periodPct[floors.name])} основных источников.`,
+        `**У источников разные роли.** Машины и механизмы — ${fmt.pct(machinery.pctSource)} основных источников, но ${fmt.pct(machinery.pctSecondary)} вторичных. ` +
+          `Конструкции и поверхности, наоборот, чаще вторичны: ${fmt.pct(surfaces.pctSecondary)} против ${fmt.pct(surfaces.pctSource)}.`,
+        ice && iceRole != null
+          ? `**Лёд и снег почти всегда вторичны.** «${ice.ru}» — ${ice.rank}-е место среди вторичных источников (${fmt.pct(ice.pct)}), ` +
+            `и в ${fmt.pct(iceRole)} упоминаний это именно вторичный источник. Самые частые пары — «пол или земля + лёд» и «парковка + лёд».`
+          : null,
+        `**Доля травм от полов растёт:** с ${fmt.pct(floors.values[0])} в ${first} до ${fmt.pct(floors.values.at(-1))} в ${last} ` +
+          `(+0,29 п.п. в год, p < 0,001). У погрузчиков, лестниц, жары и конвейеров значимого тренда нет.`,
+      ].filter(Boolean);
+      document.getElementById('insights').append(...insights.map((t) => h('li', null, rich(t))));
+    })();
+  </script>
+</body>
+</html>

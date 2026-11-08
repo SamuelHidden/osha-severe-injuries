@@ -1,0 +1,17 @@
+﻿division,outcome,cases,with_outcome,pct,ci_low,ci_high,name_ru,name_en
+1,hospitalization,7679,7664,99.8,99.68,99.88,Голова,Head
+1,amputation,7679,16,0.21,0.13,0.34,Голова,Head
+2,hospitalization,610,610,100.0,99.37,100.0,Шея,Neck
+2,amputation,610,0,0.0,0.0,0.63,Шея,Neck
+3,hospitalization,13596,13593,99.98,99.94,99.99,Туловище,Trunk
+3,amputation,13596,12,0.09,0.05,0.15,Туловище,Trunk
+4,hospitalization,42251,22581,53.44,52.97,53.92,Верхние конечности,Upper extremities
+4,amputation,42251,26701,63.2,62.74,63.65,Верхние конечности,Upper extremities
+5,hospitalization,22902,22507,98.28,98.1,98.44,Нижние конечности,Lower extremities
+5,amputation,22902,1087,4.75,4.48,5.03,Нижние конечности,Lower extremities
+6,hospitalization,4940,4939,99.98,99.89,100.0,Системы организма,Body systems
+6,amputation,4940,2,0.04,0.01,0.15,Системы организма,Body systems
+8,hospitalization,10041,10032,99.91,99.83,99.95,Несколько частей тела,Multiple body parts
+8,amputation,10041,39,0.39,0.28,0.53,Несколько частей тела,Multiple body parts
+9,hospitalization,3977,3915,98.44,98.01,98.78,Прочее / не классиф.,Other / nonclassifiable
+9,amputation,3977,104,2.62,2.16,3.16,Прочее / не классиф.,Other / nonclassifiable

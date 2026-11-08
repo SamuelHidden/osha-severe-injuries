@@ -1,0 +1,5 @@
+﻿season,season_ru,cases,amputations,hospitalized,days,per_day,vs_mean_pct,pct_amputation,pct_hospitalized
+winter,Зима,24628,6396,20015,962,25.6,-3.7,25.97,81.27
+spring,Весна,25921,7010,20782,1012,25.61,-3.66,27.04,80.17
+summer,Лето,29223,7310,23973,1012,28.88,8.62,25.01,82.03
+autumn,Осень,26224,7245,21071,1001,26.2,-1.46,27.63,80.35

@@ -1,0 +1,56 @@
+﻿year,place,title_source,cases_source,pct_of_year_source,title_secondary,cases_secondary,pct_of_year_secondary
+2015,1,"Floor, n.e.c.",518,5.27,"Ice, sleet, snow",255,10.13
+2015,2,Nonclassifiable,401,4.08,"Forklift, order picker, platform truck-powered",119,4.73
+2015,3,"Forklift, order picker, platform truck-powered",372,3.79,"Belts, gloves, neckties, scarves",99,3.93
+2015,4,"Floors, walkways, ground surfaces, unspecified",290,2.95,"Skids, pallets",56,2.22
+2015,5,"Ladders, unspecified",260,2.65,Racks-garment and other,53,2.11
+2016,1,"Floor, n.e.c.",635,6.3,"Ice, sleet, snow",186,6.78
+2016,2,"Forklift, order picker, platform truck-powered",383,3.8,"Belts, gloves, neckties, scarves",140,5.1
+2016,3,Heat-environmental,340,3.37,"Forklift, order picker, platform truck-powered",137,4.99
+2016,4,Nonclassifiable,287,2.85,Racks-garment and other,89,3.24
+2016,5,"Movable ladders, unspecified",255,2.53,"Liquids, unspecified",74,2.7
+2017,1,"Floor, n.e.c.",620,5.94,"Ice, sleet, snow",195,6.94
+2017,2,Nonclassifiable,443,4.24,"Belts, gloves, neckties, scarves",163,5.8
+2017,3,"Forklift, order picker, platform truck-powered",416,3.98,"Forklift, order picker, platform truck-powered",128,4.55
+2017,4,"Floors, walkways, ground surfaces, unspecified",232,2.22,Racks-garment and other,92,3.27
+2017,5,Heat-environmental,230,2.2,"Skids, pallets",59,2.1
+2018,1,"Floor, n.e.c.",626,5.61,"Floors, walkways, ground surfaces, unspecified",447,10.53
+2018,2,"Forklift, order picker, platform truck-powered",459,4.11,"Floor, n.e.c.",255,6.01
+2018,3,Nonclassifiable,440,3.94,"Ice, sleet, snow",229,5.39
+2018,4,Heat-environmental,294,2.64,Nonclassifiable,178,4.19
+2018,5,"Floors, walkways, ground surfaces, unspecified",261,2.34,"Belts, gloves, neckties, scarves",155,3.65
+2019,1,"Floor, n.e.c.",570,5.15,"Floors, walkways, ground surfaces, unspecified",866,18.53
+2019,2,"Forklift, order picker, platform truck-powered",452,4.08,"Floor, n.e.c.",412,8.81
+2019,3,"Floors, walkways, ground surfaces, unspecified",338,3.05,"Ice, sleet, snow",277,5.93
+2019,4,Heat-environmental,315,2.85,"Forklift, order picker, platform truck-powered",129,2.76
+2019,5,Nonclassifiable,290,2.62,"Belts, gloves, neckties, scarves",126,2.7
+2020,1,"Floor, n.e.c.",492,5.52,"Floors, walkways, ground surfaces, unspecified",824,21.29
+2020,2,"Forklift, order picker, platform truck-powered",406,4.55,"Floor, n.e.c.",338,8.73
+2020,3,"Floors, walkways, ground surfaces, unspecified",274,3.07,"Ice, sleet, snow",150,3.88
+2020,4,Nonclassifiable,249,2.79,"Belts, gloves, neckties, scarves",123,3.18
+2020,5,"Machinery, unspecified",184,2.06,"Forklift, order picker, platform truck-powered",120,3.1
+2021,1,"Floor, n.e.c.",503,5.78,"Floors, walkways, ground surfaces, unspecified",694,18.23
+2021,2,"Forklift, order picker, platform truck-powered",443,5.09,"Floor, n.e.c.",302,7.93
+2021,3,"Floors, walkways, ground surfaces, unspecified",266,3.06,"Ice, sleet, snow",176,4.62
+2021,4,Nonclassifiable,241,2.77,"Forklift, order picker, platform truck-powered",123,3.23
+2021,5,"Machinery, unspecified",220,2.53,Nonclassifiable,122,3.21
+2022,1,"Floor, n.e.c.",543,5.96,"Floors, walkways, ground surfaces, unspecified",692,16.21
+2022,2,"Forklift, order picker, platform truck-powered",478,5.25,"Floor, n.e.c.",376,8.81
+2022,3,"Floors, walkways, ground surfaces, unspecified",279,3.06,"Ice, sleet, snow",203,4.75
+2022,4,Nonclassifiable,225,2.47,"Belts, gloves, neckties, scarves",147,3.44
+2022,5,Heat-environmental,201,2.21,Nonclassifiable,129,3.02
+2023,1,"Floor, n.e.c.",528,5.9,"Floors, walkways, ground surfaces, unspecified",717,18.23
+2023,2,"Forklift, order picker, platform truck-powered",460,5.14,"Floor, n.e.c.",304,7.73
+2023,3,"Floors, walkways, ground surfaces, unspecified",277,3.1,Nonclassifiable,176,4.48
+2023,4,Heat-environmental,248,2.77,"Belts, gloves, neckties, scarves",122,3.1
+2023,5,Nonclassifiable,204,2.28,"Forklift, order picker, platform truck-powered",115,2.92
+2024,1,Other constructed surface,938,10.38,"Floors, walkways, ground surfaces, unspecified",554,10.56
+2024,2,"Forklift, order picker, platform truck-powered",382,4.23,Other constructed surface,501,9.55
+2024,3,Portable ladders and stairs unspecified,297,3.29,Water,164,3.13
+2024,4,Heat-environmental,200,2.21,"Gloves, handguards except disposable, electric insulating",130,2.48
+2024,5,"Machinery, unspecified",169,1.87,"Forklift, order picker, platform truck-powered",119,2.27
+2025,1,Other constructed surface,978,11.23,Other constructed surface,535,10.58
+2025,2,"Forklift, order picker, platform truck-powered",349,4.01,"Floors, walkways, ground surfaces, unspecified",480,9.49
+2025,3,Portable ladders and stairs unspecified,255,2.93,Water,175,3.46
+2025,4,Heat-environmental,217,2.49,"Gloves, handguards except disposable, electric insulating",129,2.55
+2025,5,"Floors, walkways, ground surfaces, unspecified",150,1.72,"Forklift, order picker, platform truck-powered",110,2.17

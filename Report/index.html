@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тяжёлые травмы OSHA</title>
+  <meta name="description" content="Отчёт по тяжёлым производственным травмам в США (OSHA, 2015–2025): обзор дашбордов.">
+  <script>try{var t=localStorage.getItem('report-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TP</span><span class="brand-text">Тяжёлые травмы · OSHA</span></a>
+      <nav class="nav" aria-label="Дашборды">
+        <a href="index.html" aria-current="page">Обзор</a>
+        <a href="01_body_parts.html">Части тела</a>
+        <a href="02_sources.html">Источники</a>
+        <a href="03_industries.html">Отрасли</a>
+        <a href="04_seasons.html">Сезоны</a>
+        <a href="05_nature.html">Типы травм</a>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="Тема"></button>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Отчёт · OSHA Severe Injury Reports</p>
+      <h1>Тяжёлые производственные травмы в США</h1>
+      <p class="lede" id="lede"></p>
+    </header>
+
+    <div class="grid dash-cards">
+      <a class="card dash-card" href="01_body_parts.html">
+        <span class="num-tag">Дашборд 1</span>
+        <div>
+          <h2>Части тела</h2>
+          <p>Какие части тела страдают чаще всего и как травмы распределены по разделам тела.</p>
+        </div>
+        <div class="kpi" style="padding:0">
+          <span class="kpi-value" id="k-fingers"></span>
+          <span class="kpi-note">тяжёлых травм приходится на пальцы рук</span>
+        </div>
+        <ul>
+          <li>Доля случаев по разделам тела</li>
+          <li>Топ-15 частей тела</li>
+        </ul>
+        <span class="go">Открыть →</span>
+      </a>
+
+      <a class="card dash-card" href="02_sources.html">
+        <span class="num-tag">Дашборд 2</span>
+        <div>
+          <h2>Источники травмы</h2>
+          <p>Что причиняет травмы и что им способствует: основные и вторичные источники, их разделы и динамика.</p>
+        </div>
+        <div class="kpi" style="padding:0">
+          <span class="kpi-value" id="k-floors"></span>
+          <span class="kpi-note">основных источников — полы, проходы и поверхности</span>
+        </div>
+        <ul>
+          <li>Топ-15 основных и вторичных источников</li>
+          <li>Разделы источников: основной и вторичный</li>
+          <li>Крупные группы источников по годам</li>
+        </ul>
+        <span class="go">Открыть →</span>
+      </a>
+
+      <a class="card dash-card" href="03_industries.html">
+        <span class="num-tag">Дашборд 3</span>
+        <div>
+          <h2>Отрасли</h2>
+          <p>Секторы и подсекторы экономики, доля ампутаций и изменение числа травм с 2015 года.</p>
+        </div>
+        <div class="kpi" style="padding:0">
+          <span class="kpi-value" id="k-manufacturing"></span>
+          <span class="kpi-note">тяжёлых травм — в обрабатывающей промышленности</span>
+        </div>
+        <ul>
+          <li>Топ-15 секторов и подсекторов</li>
+          <li>Доля ампутаций по секторам</li>
+          <li>Изменение 2024–2025 к 2015–2016 с 95% ДИ</li>
+        </ul>
+        <span class="go">Открыть →</span>
+      </a>
+
+      <a class="card dash-card" href="04_seasons.html">
+        <span class="num-tag">Дашборд 4</span>
+        <div>
+          <h2>Сезоны и дни недели</h2>
+          <p>Когда происходят тяжёлые травмы: месяцы, времена года, дни недели и сезонные причины.</p>
+        </div>
+        <div class="kpi" style="padding:0">
+          <span class="kpi-value" id="k-summer"></span>
+          <span class="kpi-note">тяжёлых травм в день летом — к среднему за период</span>
+        </div>
+        <ul>
+          <li>Сезонный профиль по месяцам и времена года</li>
+          <li>Дни недели и тепловая карта «месяц × год»</li>
+          <li>Сезонные причины: жара, лёд, падения</li>
+        </ul>
+        <span class="go">Открыть →</span>
+      </a>
+
+      <a class="card dash-card" href="05_nature.html">
+        <span class="num-tag">Дашборд 5</span>
+        <div>
+          <h2>Типы травм</h2>
+          <p>Переломы, ампутации, ожоги и другие типы, а также исследование: какой тип травм преобладает в каком месяце.</p>
+        </div>
+        <div class="kpi" style="padding:0">
+          <span class="kpi-value" id="k-heat"></span>
+          <span class="kpi-note">доля теплового удара в июле к обычной</span>
+        </div>
+        <ul>
+          <li>Категории и топ-15 видов травм</li>
+          <li>Характерный тип травм каждого месяца</li>
+          <li>Все типы по месяцам: индекс и доля</li>
+        </ul>
+        <span class="go">Открыть →</span>
+      </a>
+    </div>
+
+    <footer class="footer">
+      <span>Данные: OSHA Severe Injury Reports · <span id="period"></span></span>
+      <span id="built"></span>
+    </footer>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/charts.js"></script>
+  <script>
+    (function () {
+      const D = window.REPORT_DATA;
+      const { fmt, casesWord, h } = Report;
+      const G = D.sources.groupsByYear;
+      const floors = G.series.find((sr) => sr.name.includes('Полы'));
+
+      document.getElementById('lede').textContent =
+        `${fmt.int(D.meta.total)} ${casesWord(D.meta.total)} за ${D.meta.period}: госпитализации, ампутации и потеря глаза. ` +
+        `Пять дашбордов собраны из итоговых таблиц анализа (Analysis/tables).`;
+      document.getElementById('k-fingers').append(fmt.num(D.body.fingers.pct), h('small', { text: '%' }));
+      document.getElementById('k-floors').append(fmt.num(G.periodPct[floors.name]), h('small', { text: '%' }));
+      const summer = D.seasons.seasons.find((x) => x.key === 'summer');
+      const heat = D.nature.research.index['Тепловой удар / перегрев'];
+      document.getElementById('k-manufacturing').append(fmt.num(D.industries.sectors[0].pct), h('small', { text: '%' }));
+      document.getElementById('k-summer').append(fmt.signed(summer.vsMean), h('small', { text: '%' }));
+      document.getElementById('k-heat').append('×' + fmt.num(Math.max(...heat) / 100));
+      document.getElementById('period').textContent = D.meta.period;
+      document.getElementById('built').textContent = `Собрано ${D.meta.built} · Report/build.py`;
+    })();
+  </script>
+</body>
+</html>

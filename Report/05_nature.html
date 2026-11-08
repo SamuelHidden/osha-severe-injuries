@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Типы травм · OSHA</title>
+  <meta name="description" content="Какие тяжёлые травмы получают работники в США и какой тип травм преобладает в каждом месяце.">
+  <script>try{var t=localStorage.getItem('report-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TP</span><span class="brand-text">Тяжёлые травмы · OSHA</span></a>
+      <nav class="nav" aria-label="Дашборды">
+        <a href="index.html">Обзор</a>
+        <a href="01_body_parts.html">Части тела</a>
+        <a href="02_sources.html">Источники</a>
+        <a href="03_industries.html">Отрасли</a>
+        <a href="04_seasons.html">Сезоны</a>
+        <a href="05_nature.html" aria-current="page">Типы травм</a>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="Тема"></button>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Дашборд 5 · Типы травм</p>
+      <h1>Какие травмы получают работники и когда</h1>
+      <p class="lede">Тип травмы — характер повреждения по классификации OIICS (Nature): перелом, ампутация, ожог, тепловой удар и т. д. Похожие коды объединены в 12 категорий по ключевым словам в названии.</p>
+    </header>
+
+    <section class="grid kpis" id="kpis" aria-label="Ключевые показатели"></section>
+
+    <div class="grid cols-2">
+      <section class="card" id="card-categories" aria-labelledby="h-categories">
+        <div class="card-head">
+          <div>
+            <h2 id="h-categories">Категории травм</h2>
+            <p class="sub">Число случаев и доля от всех травм<span class="screen-only"> · в подсказке — тяжесть</span></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Правила категорий — <code>src/labels.py</code>, <code>SQL/06_nature.sql</code></span><span><code>06_2_nature_categories.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-top" aria-labelledby="h-top">
+        <div class="card-head">
+          <div>
+            <h2 id="h-top">Топ-15 видов травм</h2>
+            <p class="sub">Точные названия OIICS, одинаковые под разными кодами объединены</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span><code>06_1_top_nature.csv</code></span></div>
+      </section>
+    </div>
+
+    <header class="section-head" id="research">
+      <p class="eyebrow">Исследование</p>
+      <h2>Какой тип травм преобладает в каком месяце</h2>
+      <p>У вопроса два ответа. <strong>По числу случаев</strong> в каждом месяце больше всего переломов. Поэтому ниже для каждого месяца показан <strong>характерный тип</strong> — тот, чья доля в этом месяце значимо выше обычной.</p>
+    </header>
+
+    <section class="card" id="card-months" aria-labelledby="h-months">
+      <div class="card-head">
+        <div>
+          <h2 id="h-months">Характерный тип травм по месяцам</h2>
+          <p class="sub">Метка — насколько доля типа в месяце выше обычной · внизу — лидер по числу случаев</p>
+        </div>
+      </div>
+      <div class="month-grid" id="month-grid"></div>
+      <div class="card-foot"><span>Значимость — скорректированные остатки χ² с поправкой Бонферрони на 144 ячейки</span><span><code>10_3_month_leaders.csv</code></span></div>
+    </section>
+
+    <div class="grid" style="margin-top:16px">
+      <section class="card" id="card-matrix" aria-labelledby="h-matrix">
+        <div class="card-head">
+          <div>
+            <h2 id="h-matrix">Все типы травм по месяцам</h2>
+            <p class="sub" id="sub-matrix"></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="index" aria-pressed="true">Индекс</button>
+            <button type="button" data-view="share" aria-pressed="false">Доля, %</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Индекс = доля в месяце / доля за весь период × 100</span><span><code>10_3_category_month_index.csv</code>, <code>10_1_category_month_share.csv</code></span></div>
+      </section>
+    </div>
+
+    <div class="grid cols-7-5">
+      <section class="card" id="card-peaks" aria-labelledby="h-peaks">
+        <div class="card-head">
+          <div>
+            <h2 id="h-peaks">Сезонный профиль каждого типа</h2>
+            <p class="sub">Индекс — случаев в день в месяце к среднему для этого типа · при равномерном распределении на сезон приходится около 25%</p>
+          </div>
+        </div>
+        <div class="table-wrap" id="peaks-table"></div>
+        <div class="card-foot"><span><code>10_2_category_peaks.csv</code></span></div>
+      </section>
+
+      <section class="card" aria-labelledby="h-method">
+        <div class="card-head"><h2 id="h-method">Как считали</h2></div>
+        <ol class="method-list" id="method"></ol>
+        <div class="card-foot"><span>Ноутбук <code>Analysis/notebooks/10_nature_by_month.ipynb</code>, запрос 6.4 в <code>SQL/06_nature.sql</code></span></div>
+      </section>
+    </div>
+
+    <section class="card insights" aria-labelledby="h-insights">
+      <div class="card-head"><h2 id="h-insights">Главное</h2></div>
+      <ol id="insights" class="two-col"></ol>
+      <div class="note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        <div>
+          <p id="calendar"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Данные: OSHA Severe Injury Reports · <span id="period"></span></span>
+      <span id="built"></span>
+    </footer>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/charts.js"></script>
+  <script>
+    (function () {
+      const D = window.REPORT_DATA;
+      const N = D.nature;
+      const R = N.research;
+      const { fmt, casesWord, h, tt, rich, kpi } = Report;
+
+      document.getElementById('period').textContent = D.meta.period;
+      document.getElementById('built').textContent = `Собрано ${D.meta.built} · Report/build.py`;
+
+      const cat = (ru) => N.categories.find((c) => c.ru === ru);
+      const peakOf = (ru) => R.peaks.find((p) => p.ru === ru);
+      const FRACT = 'Переломы';
+      const AMP = 'Ампутации';
+      const HEAT = 'Тепловой удар / перегрев';
+      const heatPeak = R.leaders.reduce((a, l) => (R.index[HEAT][l.month - 1] > R.index[HEAT][a.month - 1] ? l : a));
+      const withType = R.leaders.filter((l) => l.characteristic);
+      const significant = (c, j) => R.resid[c][j] > R.crit;
+      // Метка: во сколько раз доля выше обычной
+      const lift = (idx) => (idx >= 200 ? `×${fmt.num(idx / 100)}` : `${fmt.signed(idx - 100, 0)}%`);
+
+      // ---------- KPI ----------
+      document.getElementById('kpis').append(
+        kpi({ label: FRACT, value: fmt.num(cat(FRACT).pct), unit: '%', note: `${fmt.int(cat(FRACT).cases)} ${casesWord(cat(FRACT).cases)} · больше всех в каждом месяце` }),
+        kpi({ label: AMP, value: fmt.num(cat(AMP).pct), unit: '%', note: `госпитализированы только ${fmt.pct(cat(AMP).hospitalized)}: об ампутации сообщают и без госпитализации` }),
+        kpi({ label: `Тепловой удар в ${fmt.monthsIn[heatPeak.month - 1]}`, value: '×' + fmt.num(R.index[HEAT][heatPeak.month - 1] / 100), note: `доля выше обычной; ${fmt.pct(peakOf(HEAT).summer, 0)} случаев — летом` }),
+        kpi({ label: 'Месяцев с характерным типом', value: String(withType.length), unit: 'из 12', note: 'в остальных состав травм обычный' })
+      );
+
+      // ---------- Категории и виды ----------
+      Report.card('card-categories', {
+        render: (el) =>
+          Report.hbar(el, {
+            rows: N.categories.map((c, i) => ({
+              data: c,
+              rank: i + 1,
+              label: c.ru,
+              values: [{ value: c.cases, color: 'var(--c1)', text: fmt.int(c.cases), extra: fmt.pct(c.pct) }],
+            })),
+            tip: ({ data: c }) => [
+              tt.title(c.ru),
+              tt.sub(c.en),
+              tt.kv('Случаев', fmt.int(c.cases)),
+              tt.kv('Доля от всех травм', fmt.pct(c.pct)),
+              tt.kv('Госпитализация', fmt.pct(c.hospitalized)),
+              tt.kv('Ампутация', fmt.pct(c.amputation)),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'Категория', value: (c) => c.ru, sub: (c) => c.en },
+            { label: 'Случаев', num: true, value: (c) => fmt.int(c.cases) },
+            { label: 'Доля', num: true, value: (c) => fmt.pct(c.pct) },
+            { label: 'Госпитализация', num: true, value: (c) => fmt.pct(c.hospitalized) },
+            { label: 'Ампутация', num: true, value: (c) => fmt.pct(c.amputation) },
+          ],
+          rows: N.categories,
+        },
+      });
+
+      const top = N.top.slice(0, 15);
+      Report.card('card-top', {
+        render: (el) =>
+          Report.hbar(el, {
+            rows: top.map((r) => ({
+              data: r,
+              rank: r.rank,
+              label: r.ru,
+              values: [{ value: r.cases, color: 'var(--c1)', text: fmt.int(r.cases), extra: fmt.pct(r.pct) }],
+            })),
+            tip: ({ data: r }) => [tt.title(r.ru), tt.sub(r.en), tt.kv('Случаев', fmt.int(r.cases)), tt.kv('Доля от всех травм', fmt.pct(r.pct)), tt.kv('Код OIICS', r.codes)],
+          }),
+        table: {
+          columns: [
+            { label: '№', num: true, value: (r) => String(r.rank) },
+            { label: 'Вид травмы', value: (r) => r.ru, sub: (r) => r.en },
+            { label: 'Код OIICS', value: (r) => r.codes },
+            { label: 'Случаев', num: true, value: (r) => fmt.int(r.cases) },
+            { label: 'Доля', num: true, value: (r) => fmt.pct(r.pct) },
+          ],
+          rows: top,
+        },
+      });
+
+      // ---------- Плитки месяцев ----------
+      function drawMonths() {
+        const color = Report.divergingScale(2);
+        document.getElementById('month-grid').replaceChildren(
+          ...R.leaders.map((l) => {
+            const j = l.month - 1;
+            const also = R.order.filter((c) => c !== l.characteristic && significant(c, j)).sort((a, b) => R.index[b][j] - R.index[a][j]);
+            const bg = l.characteristic ? color(Math.log2(l.index / 100)) : null;
+            return h('div', { class: 'tile month-tile' + (l.characteristic ? '' : ' usual') },
+              h('div', { class: 'mname' },
+                h('span', { text: fmt.months[j] }),
+                l.characteristic ? h('span', { class: 'badge', style: { background: bg, color: Report.inkOn(bg) }, text: lift(l.index) }) : null),
+              h('div', { class: 'mtype', text: l.characteristic ?? 'Состав обычный' }),
+              also.length ? h('div', { class: 'malso', text: 'также: ' + also.map((c) => `${c.toLowerCase()} ${lift(R.index[c][j])}`).join(', ') }) : null,
+              h('div', { class: 'mnote', text: `больше всего — ${l.leader.toLowerCase()}, ${fmt.pct(l.leaderPct)}` }));
+          })
+        );
+      }
+      drawMonths();
+      Report.onThemeChange(drawMonths);
+
+      // ---------- Тепловая карта: индекс и доля ----------
+      const cats = R.order;
+      const matrixTip = (i, j) => {
+        const c = cats[i];
+        const r = R.resid[c][j];
+        return [
+          tt.title(`${c} · ${fmt.months[j]}`),
+          tt.kv('Доля среди травм месяца', fmt.pct(R.share[c][j])),
+          tt.kv('Обычная доля', fmt.pct(R.shareAll[c])),
+          tt.kv('Индекс', `${Math.round(R.index[c][j])} (${lift(R.index[c][j])})`),
+          tt.kv('Значимо', Math.abs(r) > R.crit ? `да, ${r > 0 ? 'чаще' : 'реже'} обычного` : 'нет'),
+        ];
+      };
+      const SUBS = {
+        index: 'Индекс: 100 — обычная доля типа, 380 — в 3,8 раза выше · рамка — значимое отклонение',
+        share: 'Доля каждого типа среди травм месяца, % · рамка — лидер месяца по числу случаев',
+      };
+      Report.card('card-matrix', {
+        responsive: true,
+        render: (el, view) => {
+          document.getElementById('sub-matrix').textContent = SUBS[view] ?? SUBS.index;
+          let legend;
+          let cell;
+          if (view === 'share') {
+            const max = Math.max(...cats.flatMap((c) => R.share[c]));
+            const color = Report.sequentialScale(0, max);
+            legend = Report.scaleLegend(color, { from: 0, to: max, title: 'Доля в месяце', ticks: [{ at: 0, label: '0%' }, { at: 1, label: fmt.pct(max, 0) }] });
+            cell = (i, j) => {
+              const v = R.share[cats[i]][j];
+              return { value: v, text: fmt.num(v), color: color(v), strong: R.leaders[j].leader === cats[i] };
+            };
+          } else {
+            const color = Report.divergingScale(2);
+            legend = Report.scaleLegend(color, {
+              from: -2,
+              to: 2,
+              title: 'Доля к обычной',
+              ticks: [
+                { at: 0, label: '≤ ×¼' },
+                { at: 0.25, label: '×½' },
+                { at: 0.5, label: 'обычно' },
+                { at: 0.75, label: '×2' },
+                { at: 1, label: '≥ ×4' },
+              ],
+            });
+            legend.append(h('span', { class: 'scale-extra' }, h('span', { class: 'swatch-strong' }), 'значимо'));
+            cell = (i, j) => {
+              const v = R.index[cats[i]][j];
+              return { value: v, text: String(Math.round(v)), color: color(Math.log2(Math.max(v, 1) / 100)), strong: Math.abs(R.resid[cats[i]][j]) > R.crit };
+            };
+          }
+          const box = h('div');
+          Report.heatmap(box, {
+            rows: cats.map((c) => ({ label: c })),
+            cols: fmt.monthsShort.map((m) => ({ label: m })),
+            label: 'minmax(9rem, 14rem)',
+            cell,
+            tip: matrixTip,
+          });
+          el.replaceChildren(legend, box);
+        },
+        table: {
+          columns: [
+            { label: 'Тип травм', value: (c) => c },
+            ...fmt.monthsShort.map((m, j) => ({ label: m, num: true, value: (c) => String(Math.round(R.index[c][j])) + (Math.abs(R.resid[c][j]) > R.crit ? '*' : '') })),
+            { label: 'Обычная доля', num: true, value: (c) => fmt.pct(R.shareAll[c]) },
+          ],
+          rows: cats,
+        },
+      });
+
+      // ---------- Профиль каждого типа ----------
+      document.getElementById('peaks-table').append(
+        Report.table({
+          columns: [
+            { label: 'Тип травм', value: (p) => p.ru, sub: (p) => p.en },
+            { label: 'Случаев', num: true, value: (p) => fmt.int(p.cases) },
+            { label: 'Пик', value: (p) => `${p.peak} · ${Math.round(p.peakIndex)}` },
+            { label: 'Минимум', value: (p) => `${p.low} · ${Math.round(p.lowIndex)}` },
+            { label: 'Летом', num: true, value: (p) => fmt.pct(p.summer, 0) },
+            { label: 'Зимой', num: true, value: (p) => fmt.pct(p.winter, 0) },
+          ],
+          rows: R.peaks,
+        })
+      );
+
+      // ---------- Методика ----------
+      document.getElementById('method').append(
+        ...[
+          `**Индекс типа в месяце** = его доля среди травм месяца / его доля за весь период × 100. Общая сезонность (летом травм больше) в индексе не участвует, сравнивается только состав.`,
+          `**Значимость** — скорректированные стандартизованные остатки χ² для таблицы «тип × месяц» с поправкой Бонферрони на 144 ячейки (порог ${fmt.num(R.crit, 2)}).`,
+          `**Характерный тип месяца** — значимо превышающий обычную долю, с наибольшим индексом. Если таких нет, состав месяца обычный.`,
+          `**Проверка устойчивости** на полных годах 2016–2023 с одной редакцией OIICS: характерный тип совпал в ${R.robustSame} из 12 месяцев.`,
+        ].map((t) => h('li', null, rich(t)))
+      );
+
+      // ---------- Выводы ----------
+      const fr = R.share[FRACT];
+      const frMin = fr.indexOf(Math.min(...fr));
+      const frMax = fr.indexOf(Math.max(...fr));
+      const idx = (c, m) => lift(R.index[c][m - 1]);
+      const usual = R.leaders.filter((l) => !l.characteristic).map((l) => fmt.months[l.month - 1].toLowerCase());
+      const insights = [
+        `**Переломы и ампутации — почти две трети тяжёлых травм** (${fmt.pct(cat(FRACT).pct)} и ${fmt.pct(cat(AMP).pct)}). Ампутации госпитализируют лишь в ${fmt.pct(cat(AMP).hospitalized, 0)} случаев: OSHA требует сообщать об ампутации даже без госпитализации.`,
+        `**По числу случаев переломы лидируют во всех 12 месяцах:** от ${fmt.pct(fr[frMin])} травм месяца в ${fmt.monthsIn[frMin]} до ${fmt.pct(fr[frMax])} в ${fmt.monthsIn[frMax]}. Ампутации всегда на втором месте.`,
+        `**Лето — месяцы теплового удара:** его доля в июне ${idx(HEAT, 6)}, в июле ${idx(HEAT, 7)}, в августе ${idx(HEAT, 8)} к обычной. В июле также чаще поражение электротоком (${idx('Поражение электротоком', 7)}).`,
+        `**Зима — переломы, январь — черепно-мозговые травмы** (${idx(FRACT, 1)} и ${idx('Черепно-мозговые травмы', 1)}): на это же время приходится пик падений на льду и снегу. **Октябрь — ампутации** (${idx(AMP, 10)}, ${fmt.pct(R.share[AMP][9])} травм месяца — максимум за год). В месяцах ${usual.join(', ')} состав травм обычный.`,
+      ];
+      document.getElementById('insights').append(...insights.map((t) => h('li', null, rich(t))));
+      document.getElementById('calendar').append(
+        ...rich('**Для календаря профилактики:** защиту от жары стоит начинать в мае, до июньского роста; меры против поскальзывания и падений — к ноябрю; в октябре — проверку защитных ограждений оборудования. Состав травм по месяцам в целом меняется мало (V Крамера = 0,063), поэтому главные меры — против переломов и ампутаций — нужны круглый год.')
+      );
+    })();
+  </script>
+</body>
+</html>

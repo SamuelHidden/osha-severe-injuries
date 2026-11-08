@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сезоны · OSHA</title>
+  <meta name="description" content="Когда происходят тяжёлые производственные травмы в США: месяцы, времена года, дни недели и сезонные причины.">
+  <script>try{var t=localStorage.getItem('report-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TP</span><span class="brand-text">Тяжёлые травмы · OSHA</span></a>
+      <nav class="nav" aria-label="Дашборды">
+        <a href="index.html">Обзор</a>
+        <a href="01_body_parts.html">Части тела</a>
+        <a href="02_sources.html">Источники</a>
+        <a href="03_industries.html">Отрасли</a>
+        <a href="04_seasons.html" aria-current="page">Сезоны</a>
+        <a href="05_nature.html">Типы травм</a>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="Тема"></button>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Дашборд 4 · Сезоны и дни недели</p>
+      <h1>Когда происходят тяжёлые травмы</h1>
+      <p class="lede">Месяцы разной длины, а 2025 год заканчивается ноябрём, поэтому месяцы, сезоны и дни недели сравниваются по среднему числу случаев <strong>в день</strong>.</p>
+    </header>
+
+    <section class="grid kpis" id="kpis" aria-label="Ключевые показатели"></section>
+
+    <div class="grid cols-7-5">
+      <section class="card" id="card-months" aria-labelledby="h-months">
+        <div class="card-head">
+          <div>
+            <h2 id="h-months">Сезонный профиль по месяцам</h2>
+            <p class="sub" id="sub-months"></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Сезоны метеорологические: декабрь относится к зиме</span><span><code>04_5_monthly_profile.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-seasons" aria-labelledby="h-seasons">
+        <div class="card-head">
+          <div>
+            <h2 id="h-seasons">Времена года</h2>
+            <p class="sub">Случаев в день и отклонение от среднего за период</p>
+          </div>
+        </div>
+        <div class="tiles tiles-2" id="season-tiles"></div>
+        <div class="card-foot"><span><code>04_6_seasons.csv</code></span></div>
+      </section>
+    </div>
+
+    <div class="grid cols-5-7">
+      <section class="card" id="card-weekdays" aria-labelledby="h-weekdays">
+        <div class="card-head">
+          <div>
+            <h2 id="h-weekdays">Дни недели</h2>
+            <p class="sub">Среднее число случаев в день</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div id="weekday-legend"></div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="tiles tiles-2" id="weekday-tiles" style="margin-top:14px"></div>
+        <div class="card-foot"><span><code>04_9_weekdays.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-month-year" aria-labelledby="h-month-year">
+        <div class="card-head">
+          <div>
+            <h2 id="h-month-year">Месяц × год</h2>
+            <p class="sub">Среднее число случаев в день · темнее — больше</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Декабря 2025 года в данных нет</span><span><code>04_3_cases_per_day_month_year.csv</code></span></div>
+      </section>
+    </div>
+
+    <div class="grid">
+      <section class="card" id="card-causes" aria-labelledby="h-causes">
+        <div class="card-head">
+          <div>
+            <h2 id="h-causes">Сезонные причины травм</h2>
+            <p class="sub">Индекс: случаев в день в месяце к среднему для этой причины (100 — обычный месяц) · рамка — пиковый месяц</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Группы по типу происшествия, источнику и характеру травмы (раздел 4.8)</span><span><code>04_8_seasonal_causes_index.csv</code></span></div>
+      </section>
+    </div>
+
+    <section class="card insights" aria-labelledby="h-insights">
+      <div class="card-head"><h2 id="h-insights">Главное</h2></div>
+      <ol id="insights" class="two-col"></ol>
+    </section>
+
+    <footer class="footer">
+      <span>Данные: OSHA Severe Injury Reports · <span id="period"></span></span>
+      <span id="built"></span>
+    </footer>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/charts.js"></script>
+  <script>
+    (function () {
+      const D = window.REPORT_DATA;
+      const S = D.seasons;
+      const { fmt, casesWord, h, tt, rich, kpi } = Report;
+
+      document.getElementById('period').textContent = D.meta.period;
+      document.getElementById('built').textContent = `Собрано ${D.meta.built} · Report/build.py`;
+
+      const SEASON_RU = Object.fromEntries(S.seasons.map((s) => [s.key, s.ru]));
+      const peak = S.monthly.reduce((a, b) => (b.perDay > a.perDay ? b : a));
+      const low = S.monthly.reduce((a, b) => (b.perDay < a.perDay ? b : a));
+      const summer = S.seasons.find((s) => s.key === 'summer');
+      const weekday = S.weekdays.filter((d) => d.day <= 5);
+      const weekend = S.weekdays.filter((d) => d.day > 5);
+      const perDay = (rows) => rows.reduce((a, d) => a + d.cases, 0) / rows.reduce((a, d) => a + d.days, 0);
+      const heat = S.causes.find((c) => c.key === 'heat');
+      const ice = S.causes.find((c) => c.key === 'ice');
+      const monthIndex = (short) => fmt.monthsShort.indexOf(short);
+
+      // ---------- KPI ----------
+      document.getElementById('kpis').append(
+        kpi({ label: 'Летом', value: fmt.num(summer.perDay), unit: 'в день', note: `${fmt.signed(summer.vsMean)}% к среднему за период (${fmt.num(S.perDayAll)})` }),
+        kpi({ label: `Пик — ${fmt.months[peak.month - 1].toLowerCase()}`, value: fmt.num(peak.perDay), unit: 'в день', note: `индекс ${Math.round(peak.index)}; минимум — ${fmt.months[low.month - 1].toLowerCase()} (${Math.round(low.index)})` }),
+        kpi({ label: 'Будний день', value: fmt.num(perDay(weekday)), unit: 'в день', note: `в выходной — ${fmt.num(perDay(weekend))}, в воскресенье — ${fmt.num(S.weekdays[6].perDay)}` }),
+        kpi({ label: `Тепловой удар в ${fmt.monthsIn[monthIndex(heat.peak)]}`, value: '×' + fmt.num(heat.peakIndex / 100), note: `к среднему месяцу; ${fmt.pct(heat.summer, 0)} случаев — летом` })
+      );
+
+      // ---------- Месяцы ----------
+      document.getElementById('sub-months').textContent = `Среднее число случаев в день, отрезок — 95% ДИ по годам, линия — среднее за период (${fmt.num(S.perDayAll)})`;
+      const SEASON_GROUPS = [
+        { label: 'Зима', from: 0, to: 1 },
+        { label: 'Весна', from: 2, to: 4 },
+        { label: 'Лето', from: 5, to: 7 },
+        { label: 'Осень', from: 8, to: 10 },
+        { label: 'Зима', from: 11, to: 11 },
+      ];
+      Report.card('card-months', {
+        responsive: true,
+        render: (el) =>
+          Report.columns(el, {
+            height: 290,
+            items: S.monthly.map((m) => ({
+              ...m,
+              label: fmt.monthsShort[m.month - 1],
+              short: fmt.monthsShort[m.month - 1][0],
+              value: m.perDay,
+              lo: m.perDay - m.ci,
+              hi: m.perDay + m.ci,
+              text: fmt.num(m.perDay),
+              color: 'var(--c1)',
+            })),
+            groups: SEASON_GROUPS,
+            ref: { value: S.perDayAll },
+            yFormat: (v) => fmt.int(v),
+            labelEvery: 40,
+            tip: (m) => [
+              tt.title(fmt.months[m.month - 1]),
+              tt.kv('Случаев в день', fmt.num(m.perDay)),
+              tt.kv('95% ДИ', `${fmt.num(m.perDay - m.ci)}–${fmt.num(m.perDay + m.ci)}`),
+              tt.kv('Индекс сезонности', String(Math.round(m.index))),
+              tt.kv('Сезон', SEASON_RU[m.season]),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'Месяц', value: (m) => fmt.months[m.month - 1] },
+            { label: 'Сезон', value: (m) => SEASON_RU[m.season] },
+            { label: 'Случаев в день', num: true, value: (m) => fmt.num(m.perDay) },
+            { label: '95% ДИ', num: true, value: (m) => `${fmt.num(m.perDay - m.ci)}–${fmt.num(m.perDay + m.ci)}` },
+            { label: 'Индекс', num: true, value: (m) => String(Math.round(m.index)) },
+          ],
+          rows: S.monthly,
+        },
+      });
+
+      // ---------- Времена года ----------
+      document.getElementById('season-tiles').append(
+        ...S.seasons.map((s) =>
+          h('div', { class: 'tile' },
+            h('span', { class: 'tile-name', text: s.ru }),
+            h('span', { class: 'tile-value' }, fmt.num(s.perDay), h('small', { text: 'в день' })),
+            h('span', { class: 'tile-delta', text: `${fmt.signed(s.vsMean)}% к среднему` }),
+            h('span', { class: 'tile-note', text: `${fmt.int(s.cases)} ${casesWord(s.cases)} · ампутации ${fmt.pct(s.amputation)}` }))
+        )
+      );
+
+      // ---------- Дни недели ----------
+      document.getElementById('weekday-legend').append(
+        Report.legend([
+          { key: 'work', label: 'Будни', color: 'var(--c1)' },
+          { key: 'off', label: 'Выходные', color: 'var(--other)' },
+        ])
+      );
+      Report.card('card-weekdays', {
+        responsive: true,
+        render: (el) =>
+          Report.columns(el, {
+            height: 250,
+            items: S.weekdays.map((d) => ({ ...d, label: d.ru, value: d.perDay, text: fmt.num(d.perDay), color: d.day <= 5 ? 'var(--c1)' : 'var(--other)' })),
+            yFormat: (v) => fmt.int(v),
+            tip: (d) => [
+              tt.title(d.ru),
+              tt.kv('Случаев в день', fmt.num(d.perDay)),
+              tt.kv('Всего случаев', fmt.int(d.cases)),
+              tt.kv('Доля ампутаций', fmt.pct(d.amputation)),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'День', value: (d) => d.ru },
+            { label: 'Случаев', num: true, value: (d) => fmt.int(d.cases) },
+            { label: 'Дней', num: true, value: (d) => fmt.int(d.days) },
+            { label: 'В день', num: true, value: (d) => fmt.num(d.perDay) },
+            { label: 'Ампутации', num: true, value: (d) => fmt.pct(d.amputation) },
+          ],
+          rows: S.weekdays,
+        },
+      });
+
+      const ampShare = (rows) => rows.reduce((a, d) => a + d.amputation * d.cases, 0) / rows.reduce((a, d) => a + d.cases, 0);
+      document.getElementById('weekday-tiles').append(
+        ...[['Будни', weekday], ['Выходные', weekend]].map(([name, rows]) =>
+          h('div', { class: 'tile' },
+            h('span', { class: 'tile-name', text: name }),
+            h('span', { class: 'tile-value' }, fmt.num(perDay(rows)), h('small', { text: 'в день' })),
+            h('span', { class: 'tile-note', text: `${fmt.int(rows.reduce((a, d) => a + d.cases, 0))} случаев · ампутации ${fmt.pct(ampShare(rows))}` })))
+      );
+
+      // ---------- Месяц × год ----------
+      const MY = S.monthYear;
+      const allValues = MY.values.flat().filter((v) => v != null);
+      Report.card('card-month-year', {
+        responsive: true,
+        render: (el) => {
+          const color = Report.sequentialScale(Math.min(...allValues), Math.max(...allValues));
+          const legend = Report.scaleLegend(color, {
+            from: Math.min(...allValues),
+            to: Math.max(...allValues),
+            title: 'Случаев в день',
+            ticks: [{ at: 0, label: fmt.num(Math.min(...allValues)) }, { at: 1, label: fmt.num(Math.max(...allValues)) }],
+          });
+          const box = h('div');
+          Report.heatmap(box, {
+            rows: MY.months.map((m) => ({ label: m })),
+            cols: MY.years.map((y) => ({ label: String(y) })),
+            label: 'minmax(2.6rem, 3.2rem)',
+            minCell: 38,
+            cell: (i, j) => {
+              const v = MY.values[i][j];
+              return v == null ? null : { value: v, text: fmt.num(v), color: color(v) };
+            },
+            tip: (i, j) => [
+              tt.title(`${fmt.months[i]} ${MY.years[j]}`),
+              tt.kv('Случаев в день', fmt.num(MY.values[i][j])),
+              tt.kv('К среднему за период', `${fmt.signed(100 * (MY.values[i][j] / S.perDayAll - 1), 0)}%`),
+            ],
+          });
+          el.replaceChildren(legend, box);
+        },
+        table: {
+          columns: [{ label: 'Месяц', value: (r) => r.month }, ...MY.years.map((y, j) => ({ label: String(y), num: true, value: (r) => (r.values[j] == null ? '—' : fmt.num(r.values[j])) }))],
+          rows: MY.months.map((month, i) => ({ month, values: MY.values[i] })),
+        },
+      });
+
+      // ---------- Сезонные причины ----------
+      Report.card('card-causes', {
+        responsive: true,
+        render: (el) => {
+          const color = Report.divergingScale(2);
+          const legend = Report.scaleLegend((t) => color(t), {
+            from: -2,
+            to: 2,
+            title: 'К среднему месяцу',
+            ticks: [
+              { at: 0, label: '≤ ×¼' },
+              { at: 0.25, label: '×½' },
+              { at: 0.5, label: 'обычно' },
+              { at: 0.75, label: '×2' },
+              { at: 1, label: '≥ ×4' },
+            ],
+          });
+          const box = h('div');
+          Report.heatmap(box, {
+            rows: S.causes.map((c) => ({ label: c.ru })),
+            cols: fmt.monthsShort.map((m) => ({ label: m })),
+            label: 'minmax(8rem, 14rem)',
+            cell: (i, j) => {
+              const c = S.causes[i];
+              const v = S.causeIndex[c.ru][j];
+              return { value: v, text: String(Math.round(v)), color: color(Math.log2(Math.max(v, 1) / 100)), strong: j === monthIndex(c.peak) };
+            },
+            tip: (i, j) => {
+              const c = S.causes[i];
+              const v = S.causeIndex[c.ru][j];
+              return [
+                tt.title(`${c.ru} · ${fmt.months[j]}`),
+                tt.kv('Индекс', String(Math.round(v))),
+                tt.kv('К среднему месяцу', v >= 100 ? `×${fmt.num(v / 100)}` : `${fmt.signed(v - 100, 0)}%`),
+                tt.kv('Пик', `${c.peak} (${Math.round(c.peakIndex)})`),
+                tt.kv('Летом / зимой', `${fmt.pct(c.summer)} / ${fmt.pct(c.winter)}`),
+                tt.kv('Случаев всего', fmt.int(c.cases)),
+              ];
+            },
+          });
+          el.replaceChildren(legend, box);
+        },
+        table: {
+          columns: [
+            { label: 'Причина', value: (c) => c.ru },
+            { label: 'Случаев', num: true, value: (c) => fmt.int(c.cases) },
+            { label: 'Пик', value: (c) => `${c.peak} (${Math.round(c.peakIndex)})` },
+            { label: 'Минимум', value: (c) => `${c.low} (${Math.round(c.lowIndex)})` },
+            { label: 'Летом', num: true, value: (c) => fmt.pct(c.summer) },
+            { label: 'Зимой', num: true, value: (c) => fmt.pct(c.winter) },
+          ],
+          rows: S.causes,
+        },
+      });
+
+      // ---------- Выводы ----------
+      const winter = S.seasons.find((s) => s.key === 'winter');
+      const spring = S.seasons.find((s) => s.key === 'spring');
+      const fallSame = S.causes.find((c) => c.key === 'fall_same');
+      const contact = S.causes.find((c) => c.key === 'contact');
+      const friday = S.weekdays[4];
+      const insights = [
+        `**Летом тяжёлых травм больше всего:** ${fmt.num(summer.perDay)} в день, на ${fmt.num(summer.vsMean)}% выше среднего. Зима и весна — на ${fmt.num(Math.abs(winter.vsMean))}% ниже. ` +
+          `Пик — ${fmt.months[peak.month - 1].toLowerCase()} (индекс ${Math.round(peak.index)}), минимум — ${fmt.months[low.month - 1].toLowerCase()} (${Math.round(low.index)}): праздники и меньше рабочих дней.`,
+        `**Сезонность выражена и устойчива:** распределение по месяцам неравномерно (χ² = 440, p < 0,001), сила сезонности по STL — 0,63. Весной число травм почти как зимой (${fmt.num(spring.perDay)} и ${fmt.num(winter.perDay)} в день).`,
+        `**Сезонные пики дают разные причины.** Тепловой удар: ${fmt.pct(heat.summer, 0)} случаев летом, в ${fmt.monthsIn[monthIndex(heat.peak)]} в ${fmt.num(heat.peakIndex / 100)} раза больше среднего. ` +
+          `Лёд и снег: ${fmt.pct(ice.winter, 0)} зимой, пик в феврале (×${fmt.num(ice.peakIndex / 100)}). Падения на одном уровне тоже зимние (февраль — ${Math.round(fallSame.peakIndex)}), а контакт с оборудованием почти не зависит от сезона (${Math.round(contact.lowIndex)}–${Math.round(contact.peakIndex)}).`,
+        `**Риск определяется рабочими днями, а не календарём:** в будний день ${fmt.num(perDay(weekday))} тяжёлой травмы, в выходной — ${fmt.num(perDay(weekend))}. Пятница уже ниже середины недели (${fmt.num(friday.perDay)}).`,
+      ];
+      document.getElementById('insights').append(...insights.map((t) => h('li', null, rich(t))));
+    })();
+  </script>
+</body>
+</html>

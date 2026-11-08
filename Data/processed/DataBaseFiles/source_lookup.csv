@@ -1,0 +1,1644 @@
+code,title
+10,"Chemicals and chemical products, unspecified"
+18,Multiple chemicals and hazardous materials
+19,"Chemicals and chemical products, n.e.c."
+20,"Containers, furniture, and fixtures, unspecified"
+29,"Containers, furniture, fixtures n.e.c."
+30,"Machinery, unspecified"
+40,"Parts and materials, unspecified"
+60,"Structures and surfaces, unspecified"
+69,"Structures and surfaces, n.e.c."
+70,"Tools, instruments, and equipment, unspecified"
+80,"Vehicle, unspecified"
+90,"Other sources, unspecified"
+99,"Source, n.e.c."
+110,Explosives unspecified
+120,"Aromatics and hydrocarbon derivatives, except halogenated, unspecified"
+128,"Multiple aromatics and hydrocarbon derivatives, except halogenated"
+130,Flammable and combustible liquids and solids unspecified
+138,Multiple flammable and combustible liquids and solids
+139,"Halogens and halogen compounds, n.e.c."
+140,Nonflammable Liquids and Solids unspecified
+144,Lead and compounds
+145,Mercury and compounds
+147,"Welding or soldering fumes, unspecified or n.e.c."
+148,Multiple nonflammable liquids and solids
+149,"Metallic particulates, trace elements, dusts, powders, fumes, n.e.c."
+150,"Pesticides and other agricultural chemicals, unspecified"
+151,"Fertilizers, plant food, n.e.c."
+152,"Fumigants, n.e.c."
+153,Fungicides
+154,Herbicides
+155,Insecticides
+160,"Coal, natural gas, petroleum fuels and products, unspecified"
+161,"Coal, coal dust"
+162,Natural gas
+163,"Petroleum, crude oil"
+168,Multiple general chemical products
+169,"Coal, natural gas, petroleum fuels and products, n.e.c."
+172,Cryogenic gases
+178,"Multiple chemicals or chemical mixtures, n.e.c."
+180,"Chemical products, unspecified"
+181,"Adhesives, glues, n.e.c."
+182,"Beauty preparations, cosmetics"
+210,"Containers, unspecified"
+216,"Skids, pallets"
+217,"Skids, pallets"
+218,Multiple types of containers
+219,"Containers, n.e.c."
+220,"Furniture and fixtures, unspecified"
+229,"Furniture and fixtures, n.e.c."
+310,"Agricultural and garden machinery, unspecified"
+319,Other agricultural and garden machinery
+320,"Construction, logging, and mining machinery, unspecified"
+330,"Heating, cooling, and cleaning machinery and appliances, unspecified"
+339,"Heating, cooling, and cleaning machinery and appliances, n.e.c."
+340,"Material and personnel handling machinery, unspecified"
+344,Jacks
+345,Pumps except oil well
+346,Air compressors
+347,Jacks
+349,Other material and personnel handling machinery n.e.c.
+350,"Metal, woodworking, and special material machinery, unspecified"
+358,Threading and tapping machines
+360,Special process machinery unspecified
+369,"Office and business machinery, n.e.c."
+370,"Special process machinery, unspecified"
+390,"Miscellaneous machinery, unspecified"
+391,"Vending, and gaming machines"
+392,"Product assembly machinery, n.e.c."
+393,"Product testing, inspecting, and diagnostic machinery, n.e.c."
+399,Other miscellaneous machinery n.e.c.
+410,"Building materials, unspecified"
+418,Multiple raw and semi-finished materials and byproducts
+419,Raw and semi-finished materials and byproducts n.e.c.
+420,"Fasteners, connectors, ropes, ties, unspecified"
+423,"Valves, nozzles"
+426,"Concrete wet mix, or dry mix"
+428,Multiple building materials
+429,"Fasteners, connectors, ropes, ties, n.e.c."
+430,"Adhesives, sealants, paints unspecified"
+431,"Caulking, insulation foam"
+432,"Hooks, shackles, magnets, clamshells"
+433,Slings
+434,"Paint, lacquer, shellac, varnish"
+439,"Hoisting accessories, n.e.c."
+440,"Machine, tool, and electric parts, unspecified"
+443,"Valves, nozzles"
+449,"Machine, tool, and electric parts, n.e.c."
+450,"Metal materials-nonstructural, unspecified"
+451,"Metal sheets, ingots, bars-nonstructural"
+452,"Molten or hot metals, slag"
+453,Slings
+454,"Drums, pulleys, sheaves"
+459,"Metal materials-nonstructural, n.e.c."
+460,Vehicle and machine parts unspecified
+461,"Roofing asphalt, roofing tar"
+463,"Foam caulking, foam insulation"
+466,"Sealants, waterproofers, n.e.c."
+469,"Tars, sealants, caulking, insulation, n.e.c."
+470,Vehicle and machine parts unspecified
+471,"Roofing paper, roofing felt"
+472,"Tarps, plastic or fabric sheeting"
+473,Plastic wrap
+474,Cardboard
+479,Vehicle and mobile equipment parts n.e.c.
+480,"Vehicle and mobile equipment parts, unspecified"
+483,Trailers
+484,"Windshields, vehicle windows"
+489,"Vehicle and mobile equipment parts, n.e.c."
+492,Furniture and fixture parts
+499,"Parts and materials, n.e.c."
+510,"Animals, unspecified"
+512,"Fish, shellfish"
+529,"Animal and plant byproducts, n.e.c."
+530,"Infectious and parasitic agents, unspecified"
+531,Bacteria
+532,"Mold, mildew"
+533,Viruses
+540,"Plants, trees, vegetation unspecified"
+541,Metal ores-nonradiating
+542,"Loose grain, processed grain crops"
+544,"Poison ivy, oak, sumac, rhus"
+545,"Brush, shrubs, undergrowth"
+547,"Mulch, compost"
+549,"Other plants, vegetation"
+550,"Nonmetallic minerals, except fuel, unspecified"
+552,Boulders
+553,Clay-natural and processed
+554,"Dirt, earth"
+555,Mud
+556,"Rocks, crushed stone"
+557,"Sand, gravel"
+558,Silica
+559,"Nonmetallic minerals, except fuel, n.e.c."
+560,"Person-injured or ill worker, unspecified"
+561,"Bodily conditions of injured, ill worker"
+562,"Bodily motion or position of injured, ill worker"
+569,"Person-injured or ill worker, n.e.c."
+570,"Person, other than injured or ill worker, unspecified"
+573,Student
+574,Patient
+575,Other client or customer
+576,Acquaintance
+579,"Person, other than injured or ill worker, n.e.c."
+580,"Plants, trees, vegetation, unspecified"
+582,Field crops
+583,Flowers
+584,Houseplants
+586,"Shrubs, grasses"
+610,"Confined spaces, unspecified"
+611,"Ditches, channels, trenches, excavations"
+613,"Wells, cisterns"
+614,Pipeline interiors
+615,Manure pits
+616,"Spray, paint booths"
+620,Building unspecified
+621,Industrial building
+622,Commercial or institutional building
+623,Residential building
+624,Silos
+625,Agricultural building except silos
+626,Mobile building
+627,"Institutionalized residential building, except jails"
+628,"Prisons, jails"
+629,"Building, n.e.c."
+630,"Structures other than buildings, unspecified"
+631,"Bridges, dams, locks"
+632,"Bridges, dams, locks"
+633,Pools
+636,"Excavations, strip mines, and quarries (except confined space)"
+639,Structures other than buildings n.e.c.
+640,"Building systems, unspecified"
+641,Climate control systems
+643,Electrical systems
+649,"Building systems, n.e.c."
+650,"Other structural elements, unspecified"
+652,"Windows, openings structurally attached"
+653,"Windows, openings"
+654,Ceilings
+655,Walls
+656,"Trusses, girders, beams structurally attached"
+657,"Handrails, banisters"
+658,"Loading docks, dock plates"
+659,"Structural elements, n.e.c."
+660,"Floors, walkways, ground surfaces, unspecified"
+664,Moving walkways
+670,"Geographical structures, unspecified"
+672,"Rivers, streams"
+679,"Geographical structures, n.e.c."
+710,Handtools unspecified
+720,"Handtools-powered, unspecified"
+721,Laboratory equipment
+723,Gauges
+724,"Levels, plumb bobs"
+725,"Rulers, tape measures"
+727,Scales
+729,Measurement and scientific devices n.e.c.
+730,Portable ladders and stairs unspecified
+731,Extension ladders
+732,Straight ladders
+733,Step ladders
+734,Multipurpose ladders
+736,Portable stairs
+739,Portable ladders and stairs n.e.c.
+740,"Ladders, unspecified"
+741,Ladders-fixed
+744,"Medical beds, stretchers, cots"
+745,"Patient hoists, lifting harnesses"
+749,"Ladders, n.e.c."
+750,"Medical and surgical instruments and equipment, unspecified"
+754,Latex gloves
+755,"Stretchers, backboards, wheeled cots, stair chairs"
+756,Intravenous (IV) poles and machines
+757,"Patient hoists, lifting harnesses"
+759,"Medical and surgical instruments and equipment, n.e.c."
+770,"Protective equipment, except clothing, unspecified"
+771,"Ball, stick, and throwing sports equipment"
+772,Gymnasium and exercise equipment
+773,"Skis, snow sports equipment"
+774,Hard hats
+775,"Lifelines, lanyards, safety belts, harnesses"
+776,Respirators
+777,Safety glasses or goggles
+778,Hunting and trapping equipment except firearms
+779,"Protective equipment, except clothing, n.e.c."
+782,Ammunition
+789,"Firearms, law enforcement, and other self-defense equipment, n.e.c."
+791,Drug and tobacco paraphernalia
+792,"Cooking and eating utensils, except knives"
+799,"Tools, instruments, and equipment, n.e.c."
+810,Aircraft unspecified
+812,"Helicopters, powered rotary wing aircraft"
+819,"Aircraft, n.e.c"
+820,"Rail vehicle, unspecified"
+821,Amusement park rail vehicle
+822,"Streetcar, trolley, cable car, light rail"
+823,"Subway, elevated train"
+825,"Rail-mounted construction, cleaning, maintenance machine"
+829,"Rail vehicle, n.e.c"
+830,"Water vehicle, unspecified"
+831,Barge
+832,Commercial fishing vessel
+833,"Tugboat, towboat"
+834,"Cargo ship, freighter, passenger liner, ship, excluding sail-powered"
+835,"Motorboat, motorized yacht"
+836,Sailboat
+837,"Rowboat, kayak, canoe"
+838,"Raft, floating dock"
+839,"Water vehicle, n.e.c"
+840,"Highway vehicle, motorized, unspecified"
+851,"Bicycle, pedal cycle"
+859,"Animal- or human-powered vehicle, n.e.c."
+860,"Off-road or industrial vehicle-powered, unspecified"
+863,Agricultural tractors
+869,"Off-road or industrial vehicle-powered, n.e.c"
+870,"Plant and industrial vehicle-nonpowered, unspecified"
+871,"Cart, dolly, hand truck-nonpowered"
+872,Pallet jack-nonpowered
+873,Wagon
+874,Wheelbarrow
+875,"Shopping cart, grocery carriage-nonpowered"
+879,"Plant and industrial vehicle-nonpowered, n.e.c"
+890,"Other vehicles, unspecified"
+891,Military vehicle except tanks
+892,Tank
+893,Street sweeping and cleaning machinery
+894,Street sweeping and cleaning machinery
+899,"Vehicle, n.e.c"
+910,"Apparel and textiles, unspecified"
+912,"Towels, linens, bedding"
+913,Laundry
+914,Laundry
+915,"Sheets, towels, linens, bedding"
+919,"Apparel and textiles, n.e.c."
+920,Personal protective equipment (PPE) unspecified
+929,Personal protective equipment (PPE) n.e.c.
+930,"Paper, books, magazines, unspecified"
+931,"Books, notebooks, magazines, catalogues"
+932,"Paper, sheets"
+939,"Paper, books, magazines, n.e.c."
+940,"Scrap, waste, debris, unspecified"
+941,Vehicle or mobile equipment failure
+942,Sewage
+943,Construction debris
+944,"Trash, garbage"
+945,Scrap metal
+949,"Scrap, waste, debris, n.e.c."
+950,"Steam, vapors, liquids, ice, unspecified"
+951,"Steam, vapors-nonchemical"
+953,"Ice-blocks, cubes, crushed"
+959,"Steam, vapors, liquids, ice, n.e.c."
+990,"Source, secondary source unspecified"
+991,Secondary source not applicable
+999,"Other source, secondary source n.e.c."
+1110,"Acids, unspecified"
+1111,"Acetic acid, vinegar"
+1112,"Hydrogen chloride, hydrochloric acid"
+1113,"Hydrogen fluoride, hydrofluoric acid"
+1114,Nitric acid
+1115,Sulfuric acid
+1118,Multiple acids
+1119,"Acids, n.e.c."
+1120,"Alkalies, unspecified"
+1121,"Cement, mortar mix-dry"
+1122,"Cement, mortar mix-wet"
+1123,Lime
+1125,"Sodium and potassium hydroxide, potassium carbonate"
+1128,Multiple alkalies
+1129,"Alkalies, n.e.c."
+1210,Flammable gas unspecified
+1211,Antifreeze
+1212,Propane
+1213,Other hydrocarbon gas
+1214,Carbon monoxide
+1215,Hydrogen sulfide
+1219,"Alcohols, n.e.c."
+1221,"Ammonia, ammonium compounds"
+1222,Carbon dioxide
+1223,Nitrogen elemental
+1224,Oxygen elemental
+1229,"Aldehydes, n.e.c."
+1230,"Aromatics, unspecified"
+1231,Chlorine elemental
+1233,Toluene
+1234,Xylene
+1235,Phenol
+1236,Hydrogen cyanide
+1239,"Aromatics, n.e.c."
+1241,Acetone
+1243,Methyl ethyl ketone
+1281,Tobacco smoke
+1283,"Other smoke, fire gases"
+1284,Sewer and waste gas
+1292,Acrylonitrile
+1294,Dioxane
+1295,Ethylene oxide
+1299,"Aromatics and hydrocarbon derivatives, except halogenated, n.e.c."
+1310,Alcohols except ingested unspecified
+1311,"Chlorine, chlorine bleach"
+1312,"Ethanol, methanol, monohydric alcohols"
+1313,Polyhydric alcohols
+1314,Phosgene
+1319,"Chlorine compounds, n.e.c."
+1320,"Fluorine compounds, unspecified"
+1322,Fluorotrichloromethane
+1329,"Fluorine compounds, n.e.c."
+1331,Benzene
+1333,Toluene
+1335,Phenol
+1339,Aromatics n.e.c.
+1341,Acetone
+1343,Methyl ethyl ketone
+1350,Petroleum and coal products unspecified
+1352,Petroleum-based fuels
+1353,"Naphtha, naphtha-based solvents"
+1359,Petroleum and coal products n.e.c.
+1360,Flammable solids unspecified
+1364,Phosphorus elemental
+1369,Flammable solids n.e.c.
+1410,Oxidizing substances and organic peroxides unspecified
+1412,Calcium hypochlorite
+1413,Hydrogen peroxide
+1419,Oxidizing substances and organic peroxides n.e.c.
+1429,Toxic metallic substances n.e.c.
+1434,Other chlorine compounds
+1439,Toxic non-metallic compounds n.e.c.
+1450,Corrosive acids unspecified
+1451,"Carboxylic acids, acetic acid"
+1453,Hydrofluoric acid
+1454,Hydrochloric acid
+1455,Nitric acid
+1456,Sulfuric acid
+1459,Corrosive acids n.e.c.
+1460,Corrosive bases unspecified
+1461,"Lye, alkali metal hydroxides"
+1463,"Bleach, hypochlorites"
+1464,"Lime, calcium oxide"
+1469,"Metallics and compounds, n.e.c."
+1511,Heroin
+1512,"Fentanyl, fentanyl analogues"
+1539,Depressants except opioids n.e.c.
+1571,Vaccines
+1572,Non-CNS medications prescriptions
+1610,Pesticides and other agricultural chemicals unspecified
+1611,"Fertilizers, plant food"
+1615,Insecticides
+1620,Cleaning and polishing agents unspecified
+1621,Drain and oven cleaners
+1622,Solvents and degreasers except naphtha based
+1623,"Disinfectants, detergents, soap products"
+1624,Wax
+1628,Multiple cleaning and polishing agents
+1629,Cleaning and polishing agents n.e.c.
+1630,Refrigerant and cryogenic substances unspecified
+1633,Dry ice
+1634,Hydrofluorocarbons
+1640,"Petroleum fuels, distillates, and products, unspecified"
+1641,"Gasoline, diesel fuel, jet fuel"
+1642,"Lubricating greases, cutting oils"
+1643,Propane
+1644,"Paving asphalt, asphaltic cement"
+1649,"Petroleum fuels, distillates, and products, n.e.c."
+1710,"Ammonia and ammonium compounds, unspecified"
+1711,"Ammonia, anhydrous ammonia"
+1719,"Ammonia and ammonium compounds, n.e.c."
+1731,Hydrogen cyanide
+1739,"Cyanide and cyanide compounds, n.e.c."
+1740,"Oxygen and oxygen compounds, unspecified"
+1741,Carbon monoxide
+1742,"Carbon dioxide, dry ice"
+1743,Nitrogen oxides
+1749,"Oxygen and oxygen compounds, n.e.c."
+1750,"Plastics, resins, unspecified"
+1751,"Cyanates, urethanes"
+1752,Resins
+1759,"Plastics, resins, n.e.c."
+1761,Methane gas
+1763,Sewer gas
+1770,"Sulfur and sulfur compounds, unspecified"
+1771,Hydrogen sulfide
+1773,Sulfur dioxide
+1779,"Sulfur and sulfur compounds, n.e.c"
+1791,Nitrogen
+1793,Hydrogen
+1799,"Chemicals, n.e.c."
+1830,"Cleaning and polishing agents, unspecified"
+1831,"Bleach-nonchlorine, nonperoxide"
+1832,Disinfectants
+1833,Drain and oven cleaners
+1834,Soap products
+1835,Synthetic detergents and shampoos
+1838,Multiple cleaning and polishing agents
+1839,"Cleaning and polishing agents, n.e.c."
+1840,"Drugs, alcohol, and medicines, unspecified"
+1841,Alcoholic beverages
+1842,Drugs-nonmedicinal
+1843,"Medicines, except vaccines"
+1844,Vaccines
+1849,"Drugs, alcohol, and medicines, n.e.c."
+1850,"Explosives, blasting agents, unspecified"
+1852,"Flammable gas, unspecified"
+1854,"Pyrotechnics, fireworks"
+1859,"Explosives, blasting agents, n.e.c."
+1860,"Paint, lacquer, shellac, varnish, unspecified"
+1861,"Lacquer, shellac, varnish"
+1862,Paint
+1869,"Paint, lacquer, shellac, varnish, n.e.c."
+1870,"Solvents, degreasers, unspecified"
+1871,Naphtha solvents
+1872,"Paint removers, thinners"
+1879,"Solvents, degreasers, n.e.c."
+1891,"Dyes, inks"
+1899,"Chemical products, n.e.c."
+2110,"Containers-nonpressurized, unspecified"
+2111,"Bags, sacks"
+2112,"Boxes, crates, cartons"
+2113,"Bottles, jugs, flasks"
+2114,"Boxes, crates, cartons"
+2115,"Buckets, baskets, pails"
+2116,Cans
+2117,"Pots, pans, trays"
+2118,"Tanks, bins, vats-nonconfined space"
+2119,"Containers-nonpressurized, n.e.c."
+2120,"Containers-pressurized, unspecified"
+2121,Boilers
+2122,Hoses
+2123,Propane tanks and cylinders
+2124,"Pressure lines, except hoses"
+2125,Propane tanks and cylinders
+2126,Beer and soda kegs
+2127,Fire extinguishers
+2129,"Containers-pressurized, n.e.c."
+2130,"Containers-variable restraint, unspecified"
+2131,"Bundles, bales"
+2132,Non-riding pallet jack
+2133,"Reels, rolls, spools, coils, cones"
+2139,"Containers-variable restraint, n.e.c."
+2141,"Bundles, bales"
+2142,"Packages, parcels"
+2143,"Reels, rolls, spools, coils"
+2149,Variable restraint containers n.e.c.
+2150,"Luggage, handbags, unspecified"
+2151,"Pots, pans, trays"
+2152,"Bottles, jugs, flasks"
+2153,"Suitcases, baggage, luggage"
+2154,Computer and laptop cases
+2155,Backpacks
+2156,Mail bags and satchels-shoulder
+2157,Tool belts
+2159,"Dishes, small receptacles n.e.c."
+2160,"Luggage, handbags unspecified"
+2161,"Tote bags, shoulder bags"
+2162,Back packs
+2163,"Luggage, suitcases"
+2164,Utility and tool belts
+2169,"Luggage, handbags n.e.c."
+2210,"Cases, cabinets, racks, shelves, unspecified"
+2211,"Cabinets, cases, dressers"
+2212,"Shelves, shelving, racks"
+2213,"Counters, counter tops"
+2214,Racks-garment and other
+2215,Lockers
+2216,Partitions
+2217,"Shelves, shelving"
+2218,"Cages, cage racks"
+2219,"Cases, cabinets, racks, shelves, n.e.c."
+2220,Furniture unspecified
+2221,Floor coverings- nonstructural
+2222,"Chairs, single-person seating"
+2223,"Sofas, multi-person seating"
+2224,"Tables, desks, work surfaces"
+2229,Furniture n.e.c.
+2230,"Furniture, unspecified"
+2231,Movable floor coverings not attached
+2232,"Benches, workbenches, saw horses"
+2233,Chairs
+2234,Desks
+2235,Sofas
+2236,"Tables, worktables"
+2237,"Dressers, armoires"
+2238,Multiple types of furniture
+2239,"Furniture, n.e.c."
+2240,"Lighting equipment, unspecified"
+2241,"Lamps, light fixtures"
+2242,Light bulbs
+2249,"Lighting equipment, n.e.c."
+2250,"Plumbing fixtures, unspecified"
+2251,"Bathtubs, hot tubs, showers"
+2252,Sinks
+2253,"Toilets, urinals"
+2259,Plumbing fixtures n.e.c.
+2260,"Blackboards, bulletin boards, mirrors, unspecified"
+2261,"Blackboards, bulletin boards, mirrors-wall-mounted"
+2262,"Blackboards, bulletin boards, mirrors-stand-alone"
+3110,"Harvesting and threshing machinery, unspecified"
+3111,Balers-agricultural
+3112,Combines
+3113,"Harvesters, reapers"
+3116,Harvesting machinery specialty crop
+3117,"Balers, baggers"
+3119,"Harvesting and threshing machinery, n.e.c."
+3120,"Mowing machinery, unspecified"
+3121,"Lawn mowers-nonriding, powered"
+3122,Lawn mowers-riding
+3123,Lawn mower walk behind
+3125,"Mower-tractor, n.e.c."
+3129,"Mowing machinery, n.e.c."
+3130,"Plowing, planting, and fertilizing machinery, unspecified"
+3131,Plowing and cultivating machinery
+3132,Seed planting machinery
+3133,Spreading machinery-agricultural
+3139,"Plowing, planting, and fertilizing machinery, n.e.c."
+3141,Irrigation systems
+3142,"Spreaders, sprayers, application equipment"
+3150,"Grain, forage, feed processing and handling machinery unspecified"
+3151,"Feed grinders, crushers, mixers agricultural"
+3153,Bale and product transport equipment
+3159,"Grain, forage, feed processing and handling machinery n.e.c."
+3160,Livestock-related machinery unspecified
+3161,Cattle squeeze chute
+3162,Powered cattle gates
+3163,Powered feeding equipment
+3164,"Manure cleaning, scraping equipment"
+3165,Milking parlor equipment
+3166,Animal slaughtering equipment
+3169,Livestock-related machinery n.e.c.
+3190,"Other agricultural and garden machinery, unspecified"
+3191,"Feed grinders, crushers, mixers-agricultural"
+3192,Spraying and dusting machinery-agricultural
+3193,Irrigation machinery
+3199,"Agricultural and garden machinery, n.e.c."
+3210,"Excavating machinery, unspecified"
+3211,"Backhoes, trackhoes"
+3212,Bulldozers
+3213,"Bucket, front-end, and pay loaders"
+3214,Mini excavators
+3215,Trenchers
+3219,"Excavating machinery, n.e.c."
+3220,"Loaders, unspecified"
+3221,"Bucket, front-end, end, and pay loaders"
+3222,"Skid steer loaders, mini loaders"
+3229,"Loaders, n.e.c."
+3230,"Logging and wood processing machinery-specialized, unspecified"
+3231,Mechanical harvesters--logging
+3232,"Forwarding and yarding machinery, except feller-forwarders"
+3233,Skidders-cable and grapple
+3234,Chippers
+3235,Log processing machinery
+3236,Log loaders
+3237,Log loaders
+3239,"Logging and wood processing machinery-specialized, n.e.c."
+3240,"Mining and drilling machinery, unspecified"
+3241,"Drilling machines, drilling augers"
+3242,"Mineral sorters, separators, concentrators"
+3243,"Compactors, crushers, pulverizers earth, mineral"
+3244,Oil drilling rigs and machinery
+3245,Tunneling machines
+3249,"Mining and drilling machinery, n.e.c."
+3250,Drilling and extraction machinery unspecified
+3251,"Drilling machines, drill apparatus"
+3252,"Asphalt and concrete paving machines, pavers"
+3253,"Rollers, compactors-construction"
+3254,"Graders, scrapers-construction"
+3255,"Milling machines, cold planers, and road profilers"
+3256,"Rig tongs, power tongs"
+3257,Material transfer machines
+3258,Road linemarking and striping machinery
+3259,"Road grading and surfacing machinery, n.e.c."
+3260,Road grading and surfacing machinery unspecified
+3261,Asphalt and concrete spreaders
+3262,"Concrete paving machines, pavers"
+3263,"Rollers, compactors construction"
+3264,"Graders, scrapers construction"
+3265,"Milling machines, cold planers, and road profilers"
+3266,Material transfer machines construction
+3269,Road grading and surfacing machinery n.e.c.
+3290,"Other construction, logging, and mining machinery, unspecified"
+3291,"Agitators, mixers-earth, mineral"
+3292,"Compactors, crushers, pulverizers-earth, mineral"
+3293,"Pile drivers, tamping machinery"
+3299,"Construction, logging, and mining machinery, n.e.c."
+3310,"Cooling and humidifying machinery and appliances, unspecified"
+3311,Air conditioning units
+3312,"Fans, blowers-wall, floor, ceiling, ventilation"
+3313,"Humidifiers, dehumidifiers, vaporizers"
+3314,"Refrigerators, freezers, ice makers"
+3319,"Cooling and humidifying machinery and appliances, n.e.c."
+3320,"Heating and cooking machinery and appliances, unspecified"
+3321,Beverage heating and percolating equipment and appliances
+3322,Broiling and frying equipment and appliances
+3323,Fabric pressers and ironing appliances
+3324,"Furnaces, heaters"
+3325,"Furnaces, heaters"
+3326,"Ranges, cooking ovens, grills, toasters, food warmers"
+3327,Steaming equipment and appliances
+3329,"Heating and cooking machinery and appliances, n.e.c."
+3330,"Washers, dryers, and cleaning machinery and appliances, unspecified"
+3331,Car or vehicle washing machinery
+3332,Clothes dryers
+3333,Clothes washers
+3334,Dishwashers
+3335,Industrial vacuums
+3336,Vacuum cleaners
+3339,"Washers, dryers, and cleaning machinery and appliances, n.e.c."
+3340,Waste management machinery unspecified
+3341,"Trash compactors, shredders"
+3344,Incinerators
+3349,Waste management machinery n.e.c.
+3410,Conveyors unspecified
+3411,Chutes
+3412,"Conveyors belt, slot, chain"
+3413,"Conveyors bucket, cup, pan"
+3414,"Conveyors roller, wheel"
+3416,"Conveyors screw, auger"
+3419,Conveyors n.e.c.
+3420,"Conveyors-powered, unspecified"
+3421,Conveyors-belt
+3422,"Conveyors-bucket, cup"
+3423,Conveyors-chain
+3424,Conveyors-live roller
+3425,"Cranes tower, self-erecting, pillar, hammerhead"
+3426,"Cranes gantry, overhead, monorail, container"
+3427,"Conveyors-screw, auger"
+3428,Conveyors-slot
+3429,"Conveyors-powered, n.e.c."
+3430,"Cranes, unspecified"
+3431,Cranes-truck-mounted
+3432,Cranes-rail-mounted
+3433,"Vehicle Hoists, lifts"
+3434,"Hoists, lifts overhead, cable"
+3435,"Hoists, lifts scissor, telescoping"
+3436,"Cranes-gantry, overhead, monorail, container"
+3437,Cranes-other fixed or stationary cranes
+3439,"Cranes, n.e.c."
+3440,"Overhead hoists, unspecified"
+3441,Overhead hoists-electric powered
+3442,Overhead hoists-manual
+3443,Overhead hoists-pneumatic powered
+3449,"Overhead hoists, n.e.c."
+3460,"Elevators, hoists, aerial lifts, personnel platforms-except truck-mounted, unspecified"
+3461,Dumbwaiters
+3462,Elevators
+3463,Manlifts
+3464,Automobile lifts and hoists
+3465,Material and personnel hoists
+3466,Boat lifts
+3467,"Aerial lifts, scissor lifts-except truck-mounted"
+3469,"Elevators, hoists, aerial lifts, personnel platforms-except truck-mounted, n.e.c."
+3470,Material handling and warehousing machinery unspecified
+3471,Order picking and packing machinery
+3472,Stacking machinery
+3479,Material handling and warehousing machinery n.e.c.
+3480,"Ski lifts, nonrail amusement rides, unspecified"
+3481,"Ski lifts, gondola rides"
+3482,Nonrail amusement rides
+3489,"Ski lifts, nonrail amusement rides, n.e.c."
+3490,"Other material and personnel handling machinery, unspecified"
+3491,"Winders, unwinders"
+3492,"Banding, baling, strapping machinery"
+3493,Stacking machinery
+3499,"Material and personnel handling machinery, n.e.c."
+3510,"Bending, rolling, shaping machinery, unspecified"
+3511,"Bending, crimping machines"
+3512,Shearing machines
+3513,"Rolling mills, rolling, calendering machinery"
+3514,Plastic injection molding machinery
+3519,"Bending, rolling, shaping machinery, n.e.c."
+3520,"Bending, rolling, shaping, stamping machinery unspecified"
+3521,"Stamping machinery, presses except printing"
+3522,Planing mills
+3523,Milling machines
+3524,"Rolling mills, rolling, calendering machinery"
+3525,"Boring, routing, notching machines"
+3529,"Boring, drilling, planing, milling machinery, n.e.c."
+3530,"Extruding, injecting, forming, molding machinery, unspecified"
+3531,"Stationary drills, milling machinery"
+3532,Extruding machinery
+3533,Forging machinery
+3534,Plastic injection molding machinery
+3535,"Threading, tapping machinery"
+3539,"Extruding, injecting, forming, molding machinery, n.e.c."
+3540,"Grinding, polishing machinery, unspecified"
+3541,"Grinders, abraders"
+3542,"Honing, polishing, lapping machinery"
+3543,Pressure washers
+3544,Sandblasting machinery
+3545,Sanding machinery
+3546,"Painting, priming, metal coating machinery"
+3549,"Grinding, polishing machinery, n.e.c."
+3550,"Lathes, unspecified"
+3551,Metalworking lathes
+3552,Stationary saws band
+3553,Stationary saws table
+3559,Stationary sawing machinery stationary n.e.c.
+3560,"Presses, except printing, unspecified"
+3561,Assembly presses
+3562,Brake presses
+3563,Punch presses
+3569,"Presses, except printing, n.e.c."
+3570,"Sawing machinery-stationary, unspecified"
+3571,"Arm saws, radial arm saws"
+3572,Band saws
+3573,Table saws
+3579,"Sawing machinery-stationary, n.e.c."
+3590,"Other metal, woodworking, and special material machinery, unspecified"
+3592,Laser cutting machinery
+3593,Pressure fluid cutting machinery
+3594,Welding machinery
+3595,Welding machinery
+3599,"Metal, woodworking, and special material machinery, n.e.c."
+3610,Food and beverage processing machinery unspecified
+3611,Food slicers
+3612,"Juice, oil, and fat extractors"
+3613,Meat grinders
+3614,"Mixers, blenders, whippers food and beverage"
+3615,Butchering machinery
+3616,Dairy and milk processing machinery
+3619,Food and beverage processing machinery n.e.c.
+3620,"Medical and surgical machinery, equipment unspecified"
+3621,"Medical imaging and radiological machinery, equipment"
+3622,Calculating machines and cash registers
+3624,Mailing and metering machines
+3625,Photocopiers
+3627,Shredders
+3629,"Office, banking, and retail machinery, n.e.c."
+3630,"Packaging, bottling, wrapping machinery unspecified"
+3631,"Bottling, canning, filling machinery"
+3632,"Packaging, wrapping, bundling machinery"
+3633,Product labeling machinery
+3634,"Banding, baling, strapping machinery"
+3639,"Packaging, bottling, wrapping machinery n.e.c."
+3640,Paper production machinery unspecified
+3641,"Washing, refining, and pulping machinery paper production"
+3642,"Rollers, calenders, dryers paper production"
+3643,"Cutters, slitters, winders paper production"
+3649,Paper production machinery n.e.c.
+3650,Printing machinery unspecified
+3651,Bindery machinery
+3652,Industrial printing machinery
+3659,Printing machinery n.e.c.
+3660,"Textile, apparel, leather production machinery unspecified"
+3661,"Picking, carding, combing machinery"
+3662,Spinning machinery
+3664,"Knitting, weaving machinery"
+3665,"Sewing, stitching machinery"
+3669,"Textile, apparel, leather production machinery n.e.c."
+3670,Separating and conversion unspecified
+3671,Centrifuges
+3672,"Distilling, rectifying machinery"
+3673,Filtering and sequestration machinery
+3675,Generators
+3679,Separating and conversion machinery n.e.c.
+3691,"Other product testing, inspecting, and diagnostic machinery"
+3699,Other special process machinery n.e.c.
+3710,"Food and beverage processing machinery-specialized, unspecified"
+3711,Food slicers
+3712,"Juice, oil, and fat extractors"
+3713,Meat grinders
+3714,"Mixers, blenders, whippers-food and beverage"
+3715,Butchering machinery
+3716,Dairy and milk processing machinery-specialized
+3719,"Food and beverage processing machinery-specialized, n.e.c."
+3720,"Medical, surgical, x-ray machinery and equipment, unspecified"
+3721,"Medical machinery and equipment, except x-ray"
+3722,"X-ray, magnetic resonance imaging (MRI), and fluoroscope machinery and equipment"
+3729,"Medical, surgical, x-ray machinery and equipment, n.e.c."
+3730,"Packaging, bottling, wrapping machinery, unspecified"
+3731,"Bottling, canning, filling machinery"
+3732,"Packaging, wrapping, bundling machinery"
+3733,Product labeling machinery
+3734,"Sealing, stapling machinery"
+3739,"Packaging, bottling, wrapping machinery, n.e.c."
+3740,"Paper production machinery, unspecified"
+3741,"Calenders, supercalenders-paper production"
+3742,Coaters-paper production
+3743,Dryers-paper production
+3744,Formers-paper production
+3745,"Slitters, winders-paper production"
+3746,"Washers, bleachers, refiners-paper production"
+3749,"Paper production machinery, n.e.c."
+3750,"Printing machinery and equipment, unspecified"
+3751,Bindery machinery
+3752,Engraving machinery
+3753,Presses-printing
+3759,"Printing machinery and equipment, n.e.c."
+3760,"Textile, apparel, leather production machinery, unspecified"
+3761,Dyeing machinery-textile
+3762,Knitting machinery
+3763,"Picking, carding, combing machinery"
+3764,"Sewing, stitching machinery"
+3765,Spinning machinery
+3766,Weaving machinery
+3769,"Textile, apparel, leather production machinery, n.e.c."
+3790,"Other special process machinery, unspecified"
+3791,Centrifuges
+3792,Distilling and rectifying machinery
+3795,Paint mixing machinery
+3796,"Painting, priming, metal coating machinery"
+3797,Pumps
+3799,"Special process machinery, n.e.c."
+3910,"Audio and video equipment, unspecified"
+3911,Audio equipment
+3913,"Mobile phones, personal digital assistants, other mobile devices"
+3914,Televisions
+3919,"Audio and video equipment, n.e.c."
+3990,"Other machinery, unspecified"
+3991,Air compressors
+3992,Garbage disposals
+3993,Incinerators
+3994,Snowblowers
+3995,Trash compactors
+3996,Vending machines
+3999,"Machinery, n.e.c."
+4110,"Bricks, blocks, structural stone, unspecified"
+4111,"Dirt, earth, mud"
+4112,"Concrete blocks, cinder blocks"
+4113,"Stone, marble, granite slabs"
+4114,"Structural stones or slabs, n.e.c."
+4118,Multiple earth and mineral materials
+4119,"Bricks, blocks, structural stone, n.e.c."
+4120,"Pipes, ducts, tubing, unspecified"
+4121,Concrete or clay pipes and conduits
+4122,Ducts
+4123,"Metal pipes, tubing"
+4124,"Pipe fittings, collars"
+4125,"Plastic, PVC, or rubber pipes and tubing"
+4129,"Pipes, ducts, tubing, n.e.c."
+4130,"Structural metal materials, unspecified"
+4131,Angle irons
+4132,"Bars, rods, reinforcing bar (rebar)"
+4133,Beams-unattached metal
+4134,Grates
+4135,"Metal plates, metal panels"
+4136,Rails-unattached metal
+4137,Sheet metal
+4139,"Structural metal materials, n.e.c."
+4140,"Tiles, shingles, unspecified"
+4141,Ceiling tiles
+4142,"Ceramic or stone tiles-drain, roof, multipurpose"
+4143,"Chips, pellets metal"
+4145,"Chips, shards, fibers glass"
+4149,"Chips, particles, splinters n.e.c."
+4150,"Wood, lumber, unspecified"
+4151,"Dimensional lumber: 2x4, 2x3, etc."
+4152,"Water, liquids nonchemical"
+4153,Wooden beams
+4154,"Wood pieces, trim pieces, wood scraps, n.e.c."
+4155,Wooden stakes
+4159,"Wood, lumber, n.e.c."
+4160,Hot or molten materials unspecified
+4161,"Asphalt, tar unmolded"
+4162,"Molten metal, slag"
+4169,Hot or molten materials n.e.c..
+4171,"Dusts, powder residue"
+4172,Construction debris
+4173,Scrap metal
+4179,"Garbage, recyclables, debris n.e.c."
+4190,"Other building materials-solid elements, unspecified"
+4192,Flashing
+4193,Glass building materials
+4194,"Gutters, downspouts"
+4196,"Siding-aluminum, vinyl"
+4197,"Structural hardware, n.e.c."
+4198,"Wallboard, drywall, sheetrock"
+4199,"Building materials-solid elements, n.e.c."
+4200,Building materials unspecified
+4201,Wood building materials unspecified form
+4202,Masonry building materials unspecified form
+4203,Metal building materials unspecified form
+4204,"Plastic, vinyl, and PVC building materials unspecified form"
+4205,Glass building materials unspecified form
+4210,"Beams, rods, blocks unspecified"
+4211,"Clamps, couplings"
+4212,"Nails, brads, tacks, nuts, bolts, washers"
+4213,Beams and rails metal
+4214,Rivets
+4215,Screws
+4216,"Rods, reinforcing bar (rebar) metal"
+4217,Staples
+4219,"Fasteners, n.e.c."
+4220,"Pipes, ducts, tubing unspecified"
+4221,Bands
+4222,Bungee cords
+4223,"Chains, n.e.c."
+4224,"Rope, twine, string"
+4225,Strapping
+4226,"Wire, cables-nonelectrical"
+4227,"Gutters, downspouts any material"
+4229,"Ropes, ties, chains, n.e.c."
+4230,Structural panels and sheets unspecified
+4231,"Sheets, panels wood, plywood, MDF"
+4232,"Plates, slabs concrete and stone"
+4233,"Panels, sheets, plates metal"
+4234,"Panels, sheets, plates acrylic, plexiglass"
+4235,"Panels, sheets, plates glass"
+4236,"Wallboard, drywall, sheetrock"
+4239,Structural panels and sheets n.e.c.
+4241,Paneling and trim
+4242,Bricks and pavers stone and masonry
+4243,Exterior siding
+4244,Interior flooring
+4245,"Tiles ceramic, stone, glass"
+4246,Roofing shingles and sheets
+4247,Drop ceiling tiles
+4251,"Tarps, liners, wraps"
+4252,Insulation fiberglass
+4253,Fencing and screening material
+4259,"Flexible barriers, coverings n.e.c."
+4410,"Electric parts, unspecified"
+4411,Electrical wiring-building
+4412,Generators
+4413,Batteries other than automotive
+4414,Motors other than vehicle
+4415,"Power lines, transformers, convertors"
+4416,"Pipe fittings, collars"
+4417,"Switchboards, switches, fuses"
+4418,"Power cords, electrical cords, extension cords"
+4419,"Electric parts, n.e.c."
+4420,"Machine and appliance parts, unspecified"
+4421,"Dies, molds, patterns"
+4422,Chains
+4423,"Drums, pulleys, sheaves"
+4424,"Strapping, bands"
+4425,"Wire, cables nonelectrified"
+4426,Gears
+4427,Rollers
+4429,"Machine and appliance parts, n.e.c."
+4431,Drill bits-unattached
+4432,Saw blades-unattached
+4439,"Tool parts, accessories, n.e.c."
+4610,Electric parts unspecified
+4611,Electrical wiring building or machine
+4612,"Power lines, transformers, convertors"
+4613,"Power cords, electrical cords, extension cords"
+4614,Solar panels
+4615,"Switchboards, panels, fuses"
+4619,Electric parts n.e.c.
+4620,"Engine, motor, and mechanical parts unspecified"
+4621,"Combustion engine blocks, cylinders, pistons"
+4622,"Drives, belts, chains"
+4623,"Springs, coils"
+4624,Fan and turbine parts
+4625,Radiators
+4626,"Transmissions, gears"
+4628,"Multiple engine and mechanical parts, whole engine"
+4629,"Engine, motor, and mechanical parts n.e.c."
+4630,Machine hydraulics and pressurized components unspecified
+4631,Hydraulic and pressurized cylinders
+4632,"Hydraulic and pressurized hoses, lines"
+4633,Pressurized pipes vehicle and machine
+4639,Machine hydraulics and pressurized components n.e.c.
+4640,"Machine and tool parts, accessories unspecified"
+4641,Drill bits
+4642,Saw blades
+4643,"Dies, molds, patterns"
+4644,"Rollers, cylinders"
+4645,Augers except conveyor
+4649,"Machine and tool parts, accessories n.e.c."
+4650,Batteries and related equipment unspecified
+4651,Batteries
+4652,Battery charging equipment
+4659,Batteries related equipment n.e.c.
+4710,Undercarriage components unspecified
+4712,"Tires, inner tubes"
+4713,"Wheels, tire rims"
+4714,Continuous tracks
+4715,Brake assemblies
+4716,"Axles, suspensions"
+4717,"Vehicle, machine frame"
+4718,Multiple undercarriage components
+4719,Undercarriage components n.e.c.
+4720,Exterior vehicle and machine parts unspecified
+4721,"Doors, hatches vehicle and machine cabin"
+4722,"Gates, hatches vehicle and machine cargo"
+4723,Bumpers
+4724,"Windows, windshields vehicle and machine"
+4725,Open cargo areas vehicle and machine
+4726,"Vehicle and machine platforms, surfaces"
+4729,Exterior vehicle and machine parts n.e.c.
+4731,Vehicle and machine seats
+4738,Multiple vehicle and machine cabin parts
+4739,Vehicle and machine cabin parts n.e.c.
+4740,Vehicle and machine attachments unspecified
+4741,"Vehicle trailers, trailing units"
+4742,Vehicle and machine front attachments
+4743,Powered take offs (PTOs)
+4744,Vehicle hitches
+4749,Vehicle and machine attachments n.e.c.
+4810,"Tires, inner tubes, wheels, unspecified"
+4812,Tire inner tubes
+4813,"Tires, except bike"
+4814,"Wheels, tire rims"
+4819,"Tires, inner tubes, wheels, n.e.c."
+4820,"Engine parts and accessories, unspecified"
+4821,Battery-vehicle
+4822,"Belts, hoses-vehicle"
+4823,"Engine, engine block, motor-vehicle"
+4825,"Muffler, exhaust"
+4826,Radiator-vehicle
+4827,Transmission-vehicle
+4829,"Engine parts and accessories, n.e.c."
+4850,"Vehicle doors, liftgates, tailgates, unspecified"
+4851,Vehicle passenger doors
+4852,Liftgates
+4853,Tailgates
+4910,"Caps, lids, covers, unspecified"
+4911,"Container caps, lids, covers"
+4912,Manhole and cistern covers
+4919,"Caps, lids, covers, n.e.c."
+4930,Paper products and packaging unspecified
+4931,"Books, charts, paper materials bound"
+4932,"Sheet paper, cardstock unbound"
+4933,Cardboard
+4934,Plastic wrap
+4935,Tape
+4939,Paper products and packaging n.e.c.
+5110,"Birds and fowl, unspecified"
+5111,"Birds, except fowl"
+5112,"Chickens, turkeys"
+5115,Turkeys
+5121,Fish
+5123,Aquatic mammals
+5130,"Insects, arachnids, mites, unspecified"
+5131,"Bees, hornets, wasps"
+5132,"Spiders, scorpions"
+5133,Ants
+5134,"Lice, fleas, bedbugs"
+5135,Mosquitoes
+5136,Ticks and mites
+5139,"Insects, arachnids, mites, n.e.c."
+5140,"Reptiles, unspecified"
+5141,Venomous snakes
+5142,Nonvenomous snakes
+5149,"Reptiles, n.e.c."
+5150,Mammals unspecified
+5151,"Cats, felines-domestic"
+5152,"Dogs, canines-domestic"
+5153,Cattle and other bovines
+5154,Horses and other equines
+5155,Rodents
+5156,"Sheep, goats, and other caprids"
+5157,Swine and other porcines
+5158,Deer and other cervids
+5159,"Mammals, n.e.c."
+5211,"Bones, shells"
+5212,Feathers
+5213,Animal manure and waste products
+5214,Animal carcass
+5215,"Animal carcass, roadkill"
+5216,Animal waste products
+5219,"Animal products-nonfood, n.e.c."
+5220,"Food products, unspecified"
+5221,"Fats, oils, cooking greases"
+5222,"Soups, sauces, gravies"
+5223,Dairy products
+5224,"Beverages, n.e.c."
+5225,"Fruits, nuts, vegetables"
+5226,"Grains, cereals, grain mill products"
+5227,"Meat, poultry, seafood"
+5228,Multiple foods or groceries
+5229,"Food products, n.e.c."
+5310,Infectious agents unspecified
+5311,Bacteria
+5312,Viruses
+5321,"Mold, mildew"
+5329,"Fungi, n.e.c."
+5460,"Trees, logs, limbs unspecified"
+5461,Trees
+5462,Logs
+5463,"Limbs, branches unattached"
+5464,Tree stumps
+5469,"Trees, logs, limbs n.e.c."
+5610,"Bodily conditions of injured, ill worker unspecified"
+5619,"Bodily conditions of injured, ill worker n.e.c."
+5710,"Relative or domestic partner of injured or ill worker, unspecified"
+5711,Spouse or domestic partner of injured or ill worker
+5712,Immediate family member other than spouse
+5719,"Relative or domestic partner of injured or ill worker, n.e.c."
+5720,"Co-worker or work associate of injured or ill worker, unspecified"
+5721,Co-worker
+5722,Former co-worker
+5723,Work associate
+5724,Former work associate
+5729,Work associate n.e.c.
+5730,"Student, patient, charge unspecified"
+5731,Student
+5732,Patient
+5733,Other charge or ward
+5760,Criminal assailant unspecified
+5761,Criminal inmate or detainee in custody
+5762,Suspect under pursuit or investigation
+5763,Robber
+5769,Criminal assailant except robber
+5770,"Assailant, suspect, unspecified"
+5771,Robber
+5772,Inmate or detainee in custody
+5773,Suspect not yet apprehended
+5779,"Assailant, suspect, n.e.c."
+5782,Urine or feces of other than injured or ill person
+5870,"Trees, logs, limbs, unspecified"
+5871,Trees
+5872,Logs
+5873,"Limbs, branches-unattached"
+5879,"Trees, logs, limbs, n.e.c."
+5891,Grain dust
+5899,"Plants, trees, vegetation-not processed, n.e.c."
+6122,"Sewers, manholes, storm drains"
+6129,"Mines, caves, tunnels, pipes n.e.c."
+6130,"Tank, bin, vat interiors unspecified"
+6131,"Silo, grain bin or elevator interiors"
+6132,Hopper interior
+6133,Septic or water tank interiors
+6134,Trash bin or dumpster interiors
+6139,"Tank, bin, vat interiors n.e.c."
+6141,Crawl spaces
+6142,"Wells, cisterns"
+6144,"Spray, paint booths"
+6145,Elevator shafts
+6146,"Vehicle confined spaces except tanks, bins, vats"
+6149,Other confined spaces n.e.c.
+6170,"Tank, bin, vat interiors, unspecified"
+6171,"Silo, grain bin interiors"
+6172,Grain elevator interiors
+6173,Septic tank or water tank interiors
+6176,Oil storage tank interiors
+6177,Hopper interiors
+6179,"Tank, bin, vat interiors, n.e.c."
+6181,"Confined spaces on ships, water vessels"
+6189,"Confined spaces on vehicles, n.e.c."
+6191,Crawl spaces
+6199,"Confined spaces, n.e.c."
+6211,Warehouse
+6212,"Factory, manufacturing plant"
+6219,"Industrial building, n.e.c."
+6222,Silo exterior
+6223,Grain bin exterior
+6229,"Agricultural building, n.e.c."
+6239,"Commercial or retail building, n.e.c."
+6243,Laboratory
+6250,"Residential building, except institutionalized, unspecified"
+6251,"House, townhouse, rowhouse"
+6254,Mobile or prefabricated home
+6259,"Residential building, except institutionalized, n.e.c."
+6330,Structural barriers unspecified
+6331,"Guardrails, road dividers or barriers"
+6332,Parking blocks or barriers
+6333,Retaining wall
+6334,Fences
+6335,Gates
+6339,Structural barriers n.e.c.
+6340,"Scaffolds-staging, unspecified"
+6341,Scaffolds-improvised staging
+6342,Scaffolds-self-supporting staging
+6343,Scaffolds-staging supported by structure or other means
+6344,Catwalks
+6345,Machine platforms
+6346,Catwalks
+6349,"Scaffolds-staging, n.e.c."
+6350,"Towers, poles, unspecified"
+6351,Telecommunications and cell phone towers
+6352,Utility and telephone poles
+6353,"Lamp posts, street lights"
+6354,"Windmills, wind turbines"
+6359,"Towers, poles, n.e.c."
+6361,Swimming pools
+6381,"Porches, balconies, decks"
+6382,"Piers, wharfs, water docks"
+6383,Railroad tracks
+6384,Hydrants
+6386,"Stadia, pavilions, stages"
+6389,Structures n.e.c.
+6390,"Other structures, unspecified"
+6391,"Guardrails, road dividers"
+6392,"Posts, bollards, moorings"
+6393,Hydrants
+6394,Road signs
+6395,"Porches, balconies, decks, patios"
+6396,Railroad tracks
+6397,Mailboxes
+6399,"Structures, n.e.c."
+6510,Doors unspecified
+6511,"Doors, except garage and vehicle"
+6512,Garage doors
+6519,"Entrances and exits, n.e.c."
+6520,"Fences, fence panels, gates, unspecified"
+6521,"Chain-link fences, panels"
+6522,Barbed-wire fences
+6523,"Wooden fences, panels"
+6524,Gates
+6529,"Fences, fence panels, gates, n.e.c."
+6530,Roofs unspecified
+6531,Skylights or other existing roof openings
+6532,Roof surface
+6540,"Roofs, unspecified"
+6541,Skylights
+6542,"Existing roof openings, other than skylights"
+6543,Roof surfaces other than roof edge
+6544,Roof edges
+6549,"Roofs, n.e.c."
+6550,"Trusses, girders, beams-structurally attached, unspecified"
+6551,"Girders, beams, structural steel"
+6552,"Roof trusses, joists"
+6560,"Ceilings, walls, unspecified"
+6561,Ceilings
+6562,Walls
+6569,"Ceilings, walls, n.e.c."
+6610,"Stairs, steps, unspecified"
+6611,"Stairs, steps-indoors"
+6612,"Stairs, steps-outdoors"
+6613,Escalators
+6614,Fixed ladder or fire escape
+6620,"Floor, unspecified"
+6621,Existing floor opening
+6622,Floor irregularity
+6623,Constructed surface irregularity
+6624,Other constructed surface
+6629,"Floor, n.e.c."
+6630,"Ground, unspecified"
+6631,Ground irregularity
+6632,"Hills, mountains"
+6633,Recessed earth structures
+6634,Hole in ground
+6635,Ground irregularity
+6636,Ground
+6639,"Ground, n.e.c."
+6640,"Sidewalks, paths, outdoor walkways, unspecified"
+6641,"Sidewalk, path, or outdoor walkway irregularity"
+6642,"Sidewalk, path, outdoor walkway-paved"
+6643,"Sidewalk, path, outdoor walkway-unpaved"
+6650,"Street, road, driveway, unspecified"
+6651,"Street, road, or driveway irregularity"
+6652,"Street, road, driveway-paved"
+6653,"Street, road, driveway-unpaved"
+6660,"Parking lot, unspecified"
+6661,Parking lot irregularity
+6662,Parking lot-paved
+6663,Parking lot-unpaved
+6670,"Curbs, traffic calming bumps, embankments, unspecified"
+6671,Curbs
+6672,"Speed bumps, speed humps"
+6673,Concrete parking blocks and barriers
+6674,Berms
+6675,Embankments
+6676,"Culverts, nonconfined ditches"
+6679,"Curbs, traffic calming bumps, embankments, n.e.c."
+6690,"Other floors, walkways, ground surfaces, unspecified"
+6691,"Piers, wharfs"
+6692,"Ramps, loading docks, dock plates"
+6693,Moving walkways
+6694,Grates and drains in floor surface
+6695,Airport runways
+6699,"Floors, walkways, ground surfaces, n.e.c."
+6710,"Raised natural structures, hills, mountains, unspecified"
+6711,Hills
+6712,Mountains
+6719,"Raised natural structures, hills, mountains, n.e.c."
+6720,"Recessed natural structures, valleys, unspecified"
+6721,Valley
+6729,"Recessed natural structures, valleys n.e.c."
+6730,"Water bodies-natural, unspecified"
+6732,Lakes
+6733,"Rivers, streams"
+7111,"Plumbing augers, snakes"
+7112,"Drills, braces, drivers"
+7113,"Routers, molders"
+7114,"Awls, punches"
+7119,Boring handtools n.e.c.
+7120,Cutting handtools unspecified
+7121,Chainsaws
+7122,Saws except chainsaws
+7123,"Box cutters, razor knives"
+7124,Box cutters and razor knives
+7125,"Knives, unspecified or n.e.c."
+7126,Saws-nonpowered
+7127,"Scissors, snips, shears-nonpowered"
+7129,"Cutting handtools-nonpowered, n.e.c."
+7130,"Digging handtools-nonpowered, unspecified"
+7131,Hoes
+7132,Picks
+7133,Shovels
+7134,Trowels
+7135,"Rakes, pitchforks"
+7139,"Digging handtools-nonpowered, n.e.c."
+7140,Gripping and turning handtools unspecified
+7141,"Pliers, tongs"
+7142,"Vises, clamps"
+7143,Tongs
+7144,"Wrenches, ratchets"
+7145,Screwdrivers
+7149,Gripping and turning handtools n.e.c.
+7150,"Striking and nailing handtools-nonpowered, unspecified"
+7151,"Hammers, except sledge-nonpowered"
+7152,"Sledges, sledgehammers"
+7153,Riveters
+7154,"Sledges, sledgehammers"
+7157,"Other hammers, mallets"
+7159,"Striking and nailing handtools-nonpowered, n.e.c."
+7161,Grinders handtool
+7162,Sanders handtool
+7163,Sanders-nonpowered
+7164,Planes surfacing handtool
+7165,Scrapers-nonpowered
+7166,Scrapers
+7169,"Surfacing handtools-nonpowered, n.e.c."
+7170,Cleaning handtools unspecified
+7171,Screwdrivers-nonpowered
+7172,"Handled cleaning tools, brooms, mops"
+7173,Wrenches-nonpowered
+7179,Cleaning handtools n.e.c.
+7180,Welding and heating handtools unspecified
+7181,"Torches welding, cutting"
+7183,Heat guns
+7185,Blow torches except welding
+7189,Welding and heating handtools n.e.c.
+7190,"Other handtools-nonpowered, unspecified"
+7191,"Brooms, mops, and other cleaning tools"
+7192,Crowbars
+7193,Push-pull rams
+7194,Crowbars
+7195,"Tape guns, dispensers"
+7199,"Handtools-nonpowered, n.e.c."
+7210,"Boring handtools-powered, unspecified"
+7211,"Augers, plumbing snakes-powered"
+7213,Drills-powered
+7214,Routers and molders-powered
+7219,"Boring handtools-powered, n.e.c"
+7220,"Cutting handtools-powered, unspecified"
+7221,Chainsaws-powered
+7222,Chisels-powered
+7223,Knives-powered
+7224,"Saws-powered, except chainsaws"
+7225,"Lawn edgers, clippers, trimmers-powered"
+7229,"Cutting handtools-powered, n.e.c."
+7231,Hammers-powered
+7232,Jackhammers-powered
+7233,Punches-powered
+7234,Riveters-powered
+7235,Nail guns-powered
+7236,Stapling tools-electric or pneumatic
+7239,"Striking and nailing handtools-powered, n.e.c."
+7240,"Surfacing handtools-powered, unspecified"
+7241,"Buffers, polishers, waxers-powered"
+7242,Hand grinders-powered
+7243,Sanders-powered
+7244,Sandblasters-powered
+7249,"Surfacing handtools-powered, n.e.c."
+7250,"Turning handtools-powered, unspecified"
+7251,Bolt setters-powered
+7252,Impact wrenches-powered
+7253,Screwdrivers-powered
+7254,Tongs-powered
+7259,"Turning handtools-powered, n.e.c."
+7260,"Welding and heating handtools-powered, unspecified"
+7261,"Welding, cutting, and blow torches"
+7263,Heat guns
+7269,"Welding and heating handtools-powered, n.e.c."
+7290,"Other handtools-powered, unspecified"
+7291,Scrubbers-powered
+7292,"Sprayers, air guns-paint"
+7293,Power washers
+7295,Spreaders-powered
+7296,Push-pull rams-powered
+7299,"Handtools-powered, n.e.c."
+7311,"Augers, plumbing snakes-power not determined"
+7312,Braces-power not determined
+7313,Drills-power not determined
+7319,"Boring handtools-power not determined, n.e.c."
+7320,"Cutting handtools-power not determined, unspecified"
+7321,Chisels-power not determined
+7322,Knives-power not determined
+7323,Saws-power not determined
+7329,"Cutting handtools-power not determined, n.e.c."
+7330,"Striking and nailing handtools-power not determined, unspecified"
+7331,Hammers-power not determined
+7332,Punches-power not determined
+7339,"Striking and nailing handtools-power not determined, n.e.c."
+7341,Sanders-power not determined
+7349,"Surfacing handtools-power not determined, n.e.c."
+7350,"Turning handtools-power not determined, unspecified"
+7351,Screwdrivers-power not determined
+7352,Wrenches-power not determined
+7359,"Turning handtools-power not determined, n.e.c."
+7361,"Calipers, micrometers"
+7366,"Rulers, tape measures"
+7368,Scales
+7369,"Measuring handtools, n.e.c."
+7391,Staplers-power not determined
+7399,"Handtools-power not determined, n.e.c."
+7411,"Needles, syringes"
+7412,Scalpels
+7420,"Movable ladders, unspecified"
+7421,Extension ladders
+7422,Step ladders
+7423,Straight ladders
+7424,"Truck mounted ladders, aerial ladder trams"
+7429,"Movable ladders, n.e.c."
+7430,"Wheelchairs, mobility devices unspecified"
+7431,"Wheelchairs, scooters powered"
+7432,"Wheelchairs, scooters nonpowered"
+7511,"Needles, syringes"
+7512,Scalpels
+7519,"Medical sharps instruments, n.e.c."
+7521,"Canes, crutches, walkers"
+7522,"Televisions, monitors, electronic screens"
+7523,"Cameras, photography equipment except phone cameras"
+7524,Audio equipment
+7529,"Health care and orthopedic equipment, n.e.c."
+7530,"Wheelchairs and other mobility devices, unspecified"
+7531,Wheelchairs-powered
+7532,Mobility scooters-powered
+7533,Wheelchairs-nonpowered
+7539,"Wheelchairs and other mobility devices, n.e.c."
+7541,Automated teller machines (ATM)
+7542,"Calculating devices, cash registers"
+7543,Mailing and metering equipment
+7611,Cameras-still and motion picture
+7615,"Tripods, camera stands"
+7619,"Photographic equipment, n.e.c."
+7621,Pens and pencils
+7622,"Chalk, crayons, marking devices"
+7623,"Art supplies and materials, except paint"
+7629,"Writing, drawing, and art supplies, n.e.c."
+7631,"Balls, pucks"
+7632,"Baseball bats, hockey sticks, rackets"
+7633,Gymnasium and exercise equipment
+7635,Playground equipment
+7636,Riding equipment
+7637,Snow sports equipment
+7638,Water sports equipment
+7639,"Recreation and athletic equipment, n.e.c."
+7810,"Firearm, unspecified"
+7811,"Pistol, handgun, revolver"
+7812,"Rifle, shotgun"
+7813,Explosive devices
+7819,"Firearm, n.e.c."
+7821,Ammunition
+7822,Explosive devices
+7831,"Batons, clubs, blunt weapons"
+7832,"Tasers, stun guns"
+7833,"Tear gas, mace, pepper spray"
+7839,"Law enforcement and self-defense equipment, n.e.c."
+7931,"Pianos, organs, keyboards"
+7941,"Fabric pins, safety pins"
+7951,Recreational fishing equipment
+8110,"Airplane-powered fixed wing, unspecified"
+8111,Airplane-jet or turbine engine
+8112,Airplane-propeller-driven or piston engine
+8119,"Airplane-powered fixed wing, n.e.c"
+8120,"Aircraft-powered rotary wing, unspecified"
+8121,Helicopter
+8132,Parachute
+8230,Heavy rail vehicles unspecified
+8231,Freight train
+8234,Unattached rail car
+8240,"Train, locomotive, rail car, unspecified"
+8241,Freight train
+8244,Rail car(s)-unattached to locomotive
+8249,"Train, locomotive, rail car, n.e.c."
+8410,"Passenger vehicle, unspecified"
+8411,"Ambulance, police, and other emergency passenger vehicle"
+8412,Ambulance
+8413,Automobile
+8414,Bus
+8415,Passenger van
+8416,"Motorcycle, moped, dirt bike"
+8417,"Motor home, RV"
+8419,Emergency vehicles n.e.c.
+8420,"Truck-motorized freight hauling and utility, unspecified"
+8421,"Semi, tractor-trailer, tanker truck"
+8422,"Boom truck, bucket or basket hoist truck"
+8423,Dump truck
+8424,"Garbage, recycling, or refuse truck"
+8425,"Boom truck, cherry picker"
+8426,Delivery truck or van
+8427,"Cement truck, concrete mixer truck"
+8428,Tow truck
+8429,"Truck-motorized freight hauling and utility, n.e.c"
+8430,Trucks unspecified
+8431,Pickup truck
+8432,"Straight trucks, box trucks"
+8433,Tanker trucks
+8434,"Other semi, tractor-trailer"
+8439,"Multi-purpose highway vehicle, n.e.c."
+8440,Passenger vehicle unspecified
+8441,Taxi
+8442,Automobile
+8443,Sports utility vehicle (SUV)
+8444,"Motorcycle, moped, dirt bike"
+8445,"Vans, passenger and utility"
+8446,Bus
+8447,"Motor home, RV"
+8610,"Off-road passenger vehicle-powered, unspecified"
+8611,"ATV, all terrain vehicle"
+8612,"Golf cart, personnel transport cart"
+8613,Racecar
+8614,Snowmobile
+8619,"Off-road passenger vehicles-powered, n.e.c"
+8620,"Industrial vehicle, material hauling and transport-powered, unspecified"
+8621,"Forklift, order picker, platform truck-powered"
+8622,Industrial carrier powered
+8623,Pallet jack-powered
+8624,Airport utility vehicle-powered
+8625,Oversized industrial hauler
+8629,"Industrial vehicle, material hauling and transport-powered, n.e.c"
+8630,"Tractor, unspecified"
+8631,Farm tractor
+8633,Industrial tractor
+8634,Power take-off (PTO)
+8639,"Tractor, n.e.c."
+9110,"Clothing, unspecified"
+9111,"Belts, gloves, neckties, scarves"
+9112,"Blouses, shirts, dresses, trousers, skirts"
+9114,"Shoes, boots, slippers, sandals"
+9115,"Suits, coats, jackets"
+9116,Clothing
+9118,"Multiple apparel, clothing except safety"
+9119,"Clothing, n.e.c."
+9121,"Eye glasses, sunglasses"
+9122,"Jewelry, ID badge lanyards"
+9123,Watches
+9131,Fabric
+9132,"Yarn, thread"
+9139,"Textiles, n.e.c."
+9210,"Air pressure, unspecified"
+9211,Atmospheric pressure-high or low
+9212,"Arc rated and insulating apparel, gloves"
+9213,Pressurized air-blast
+9214,"Hard hat, helmet"
+9215,"HAZMAT suit, gown"
+9216,"High-visibility reflective clothing, accessories"
+9217,"Gloves, handguards except disposable, electric insulating"
+9219,Protective apparel n.e.c.
+9222,Fall protection equipment
+9225,Eye and face protection
+9229,Other protective equipment n.e.c.
+9231,Air filtering respirators
+9240,"Fire, flame, smoke, unspecified"
+9241,"Fire, flame"
+9242,Tobacco smoke
+9243,"Smoke, fire gases, n.e.c."
+9252,"Waves, surges, rough seas"
+9253,Water pressure-high or low
+9254,Pressurized water-blast
+9261,Cold-environmental
+9262,Heat-environmental
+9270,"Weather and atmospheric conditions, unspecified"
+9271,Fog
+9272,"High winds, gusts, turbulence"
+9273,"Ice, sleet, snow"
+9274,Lightning
+9275,Rain
+9277,"Tornado, hurricane, typhoon"
+9278,Multiple weather and atmospheric conditions
+9279,"Weather and atmospheric conditions, n.e.c."
+9292,Sun
+9296,Poor indoor air quality
+9297,Oxygen-deficient environment
+9299,"Environmental and elemental conditions, n.e.c."
+9311,Fire extinguishers
+9312,"Wheel chocks, blocks"
+9319,Safety equipment n.e.c.
+9323,Robotic arm perimeters
+9324,Machine guards
+9329,Engineering controls n.e.c.
+9351,"""Lock out/ tag out"" communication systems"
+9352,Safety markers
+9353,"Lights, signs hazard and safety"
+9359,Hazard communication and signage n.e.c.
+9361,Workers engaging in horseplay
+9363,Workers engaging in team lift
+9410,"Chips, particles, splinters, unspecified"
+9411,"Dirt particles and dust from dirt, debris"
+9412,"Broken glass, glass chips, or fibers"
+9413,"Metal chips, particles"
+9414,"Wood chips, sawdust"
+9415,Wood splinters
+9416,"Plastic chips, particles"
+9419,"Chips, particles, splinters, n.e.c."
+9420,Avoiding objects in path of travel unspecified
+9421,"Avoiding pedestrian, live animal in path of travel"
+9422,Avoiding moving object in path of travel
+9423,Avoiding stationary object in path of travel
+9431,Operator impaired Vehicle occupied by injured worker
+9432,Operator impaired Other vehicle not occupied by injured worker
+9513,Wildfire
+9520,"Liquids, unspecified"
+9521,Water
+9522,"Tornado, hurricane, typhoon"
+9523,Rain
+9525,"High winds, gusts, turbulence"
+9526,Lightning
+9527,"Waves, surges, rough seas"
+9528,Multiple weather and atmospheric conditions
+9529,"Liquids, n.e.c."
+9532,Water pressure high or low
+9533,Pressurized air blast
+9534,Pressurized water blast
+9535,Oxygen deficient environment
+9540,Temperature extremes environmental unspecified
+9541,Cold environmental
+9542,Heat environmental
+9551,Sun
+9552,"Fire, flame"
+9999,Nonclassifiable

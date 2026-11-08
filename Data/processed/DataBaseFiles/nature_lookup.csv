@@ -1,0 +1,252 @@
+code,title
+7,EXPOSURES TO DISEASE-NO ILLNESS INCURRED
+8,"MULTIPLE DISEASES, CONDITIONS, AND DISORDERS"
+10,"Traumatic injuries and disorders, unspecified"
+21,Anemia and other diseases of the blood and blood forming organs
+30,"Infectious and parasitic diseases, unspecified"
+58,"Multiple symptoms, signs, and ill-defined conditions"
+100,Traumatic injuries or exposures unspecified
+101,"Numbness, tingling"
+102,"Soreness, swelling, inflammation"
+103,Nonfatal 'crushing' injuries
+109,Other symptoms of unspecified traumatic injury or exposure n.e.c.
+110,"Traumatic injuries to bones, nerves, spinal cord, unspecified"
+111,Fractures
+118,"Multiple traumatic injuries to bones, nerves, spinal cord"
+119,"Traumatic injuries to bones, nerves, spinal cord, n.e.c."
+120,"Traumatic injuries to muscles, tendons, ligaments, joints, etc., unspecified"
+121,Gunshot wounds
+124,Fractures
+125,Whiplash
+128,Multiple severe wounds and internal injuries
+129,"Traumatic injuries to muscles, tendons, ligaments, joints, etc., n.e.c."
+130,"Open wounds, unspecified"
+132,"Cuts, lacerations"
+133,"Puncture wounds, except gunshot wounds"
+134,Gunshot wounds
+137,Dental injuries
+138,Multiple types of open wounds
+139,"Open wounds, n.e.c."
+140,Soft tissue injuries unspecified
+141,"Abrasions, scratches"
+142,Hernias
+143,"Bruises, contusions"
+145,Whiplash
+146,Pinched nerve
+148,Multiple surface wounds and bruises
+149,Soft tissue injuries n.e.c.
+150,"Burns and corrosions, unspecified"
+160,"Intracranial injuries, unspecified"
+161,Cerebral and other intracranial hemorrhages
+162,Concussions
+163,"Poison, toxic, or allergenic effects other respiratory"
+164,"Poison, toxic, or allergenic effects dizziness, headache"
+165,"Poison, toxic, or allergenic effects nausea, vomiting"
+166,"Urticaria, hives acute"
+167,Allergic and irritant dermatitis acute
+168,"Multiple effects of poison, toxic, or allergenic exposure"
+169,"Intracranial injuries, n.e.c."
+170,"Effects of environmental conditions, unspecified"
+174,"Drowning, near drowning"
+175,Asphyxiation except toxic or allergenic
+178,Multiple effects of environmental conditions
+179,"Effects of environmental conditions, n.e.c."
+180,"Multiple traumatic injuries and disorders, unspecified"
+181,Cuts and abrasions or bruises
+185,Intracranial injuries and injuries to internal organs
+189,"Multiple traumatic injuries and disorders, n.e.c."
+190,"Other traumatic injuries and disorders, unspecified"
+191,"Asphyxiations, strangulations, suffocations"
+192,Drownings
+193,"Electrocutions, electric shocks"
+194,Internal injuries to organs and blood vessels of the trunk
+199,Other traumatic injuries n.e.c.
+230,"Circulatory system diseases, unspecified"
+232,Hypertensive disease
+239,"Circulatory system diseases, n.e.c."
+240,"Respiratory system diseases, unspecified"
+310,"Bacterial diseases, unspecified"
+320,"Viral diseases, unspecified"
+349,"Mycoses, n.e.c."
+369,Infectious diseases peculiar to the intestines n.e.c.
+518,Multiple symptoms
+619,"Damage to medical implants, n.e.c."
+990,Nature unspecified
+1110,Intracranial injuries unspecified
+1111,Intracranial injuries with skull fractures
+1112,Cerebral and other intracranial hemorrhages without skull fracture
+1113,Concussions
+1119,Other Intracranial injuries without skull fractures n.e.c.
+1120,"Traumatic injuries to spinal cord, unspecified"
+1121,"Paralysis, paraplegia, quadriplegia"
+1129,"Traumatic injuries to spinal cord, n.e.c."
+1130,"Traumatic injuries to nerves, except the spinal cord, unspecified"
+1131,Pinched nerve
+1139,"Traumatic injuries to nerves, except the spinal cord, n.e.c."
+1210,"Dislocations, unspecified"
+1211,Herniated discs
+1212,Dislocation of joints
+1218,Multiple types of dislocations
+1219,"Dislocations, n.e.c."
+1220,"Amputations, avulsions, enucleations unspecified"
+1221,Amputations involving bone loss
+1222,"Avulsions, enucleations without bone loss"
+1229,"Cartilage fractures and tears, n.e.c."
+1230,"Sprains, strains, tears, unspecified"
+1231,"Major tears to muscles, tendons, ligaments"
+1232,"Closed trauma involving internal organs, major blood vessels"
+1233,Strains
+1238,"Multiple sprains, strains, tears"
+1310,"Amputations, avulsions, enucleations, unspecified"
+1311,Amputations
+1312,"Avulsions, enucleations"
+1319,"Amputations, avulsions, enucleations, n.e.c."
+1431,Meniscus tear
+1439,Other cartilage fractures and tears n.e.c.
+1440,"Sprains, strains, tears unspecified"
+1441,"Major tears to muscles, tendons, ligaments"
+1442,"Sprains, strains, minor tears"
+1448,"Multiple major and minor sprains, strains, tears"
+1510,"Chemical burns and corrosions, unspecified"
+1511,First degree chemical burns and corrosions
+1512,Second degree chemical burns and corrosions
+1513,Third or fourth degree chemical burns and corrosions
+1520,"Heat (thermal) burns, unspecified"
+1521,First degree heat (thermal) burns
+1522,Second degree heat (thermal) burns
+1523,Third or fourth degree heat (thermal) burns
+1529,"Heat (thermal) burns, n.e.c."
+1530,"Electrical burns, unspecified"
+1531,Electrical burns any degree
+1532,Second degree electrical burns
+1533,Third or fourth degree electrical burns
+1538,Electrical burns and electrocution
+1590,"Other burns, unspecified"
+1591,"Other burns, first degree"
+1592,"Other burns, second degree"
+1593,"Other burns, third or fourth degree"
+1599,"Other burns, n.e.c."
+1680,"Multiple intracranial injuries, unspecified"
+1681,Skull fracture and intracranial injury
+1689,"Multiple intracranial injuries, n.e.c."
+1710,"Effects of reduced temperature, unspecified"
+1711,Frostbite
+1712,Hypothermia
+1719,"Effects of reduced temperature, n.e.c."
+1720,"Effects of heat and light, unspecified"
+1721,Heat stroke
+1722,"Heat exhaustion, fatigue"
+1723,Heat fatigue
+1725,"Heat exhaustion, prostration"
+1728,Multiple effects of heat and light
+1729,"Effects of heat and light, n.e.c."
+1733,"Caisson disease, bends, divers' palsy"
+1811,"Injuries to the brain, spinal cord and severe wounds, internal injuries"
+1812,"Injuries to the brain, spinal cord and soft tissue injuries"
+1815,"Injuries to the brain, spinal cord and effects of environmental exposure"
+1820,"Sprains and other injuries, unspecified"
+1821,Severe wounds or internal injuries and soft tissue injuries
+1822,Sprains and cuts
+1823,"Fractures and surface, flesh wounds"
+1824,Fractures and soft tissue injuries
+1825,Fractures and burns
+1827,"Severe wounds, internal injuries and electrocution, electric shock"
+1829,"Sprains and other injuries, n.e.c."
+1830,"Fractures and other injuries, unspecified"
+1831,Fractures (except skull fractures) and concussions
+1832,"Fractures (except rib, trunk fractures) and internal injuries"
+1833,Fractures and burns
+1834,Fractures and dislocations
+1839,"Fractures and other injuries, n.e.c."
+1840,"Burns and other injuries, except fractures, unspecified"
+1841,Burns and smoke inhalation
+1843,Soft tissue injuries and effects of electrical current
+1849,"Burns and other injuries, n.e.c."
+1950,"Dermatitis and reactions affecting the skin-acute, unspecified"
+1951,Allergic dermatitis-acute
+1952,Irritant dermatitis-acute
+1953,"Hives, urticaria-acute"
+1958,Multiple types of dermatitis and skin reactions-acute
+1960,"Poisoning, toxic, noxious, or allergenic effect, unspecified"
+1961,"Poisoning, including poisoning-related asphyxia"
+1962,"Anaphylactic shock, anaphylaxis"
+1963,"Other respiratory system symptoms-toxic, noxious, or allergenic effect"
+1964,"Coughing and throat irritation- toxic, noxious, or allergenic effect"
+1965,"Dizziness, lightheadedness, headache-toxic, noxious, or allergenic effect"
+1966,Other or unspecified allergic reactions
+1967,"Nausea, vomiting- toxic, noxious, or allergenic effect"
+1968,"Multiple poisoning, toxic, noxious, or allergenic effects"
+1969,"Other poisoning, toxic, noxious, or allergenic effects, n.e.c."
+1971,Crushing injuries
+1972,"Soreness, pain, hurt-nonspecified injury"
+1973,"Swelling, inflammation, irritation-nonspecified injury"
+1974,Numbness-nonspecified injury
+1978,Multiple nonspecified injuries and disorders
+1979,"Nonspecified injuries and disorders, n.e.c."
+1991,Traumatic shock
+1992,"Embolism, air or fat"
+1999,"Traumatic injuries and disorders, n.e.c."
+2254,"Blindness, low vision"
+2260,"Disorders of the ear, mastoid process, hearing, unspecified"
+2261,"Deafness, hearing loss and impairment"
+2330,"Ischemic heart disease, unspecified"
+2331,Myocardial infarction (heart attack)
+2332,Angina
+2339,Ischemic heart disease n.e.c.
+2342,Pulmonary embolism
+2352,Heart failure
+2359,"Other forms of heart disease, n.e.c."
+2361,Stroke
+2362,Transient ischemia attacks
+2383,"Phlebitis, thrombosis"
+2430,"Pneumonia, influenza, unspecified"
+2431,Pneumonia
+2432,Influenza-common
+2433,Influenza-novel
+2443,"Asthma, except intrinsic"
+2449,"Chronic obstructive pulmonary diseases and allied conditions, n.e.c."
+2459,"Pneumoconioses, n.e.c."
+2491,"Pneumonitis, n.e.c."
+2492,Pulmonary edema
+2720,Radiculopathy and disc disorders unspecified
+2723,"Disc disorders, herniated disc"
+2729,Radiculopathy and disc disorders n.e.c.
+2731,Bursitis
+2751,Bursitis
+2810,"Infections of the skin and subcutaneous tissue, unspecified"
+2811,Cellulitis and abscess
+2813,Methicillin-resistant staphylococcus aureus (MRSA) infection
+2910,"Endocrine, nutritional, metabolic, and immunity disorders, unspecified"
+2919,"Endocrine, nutritional, metabolic, and immunity disorders, n.e.c."
+3120,"Zoonotic bacterial diseases, unspecified"
+3141,Leptospirosis
+3197,Legionnaires' disease
+3291,Rabies
+3299,"Other diseases due to viruses, n.e.c."
+3310,"Rickettsioses diseases, unspecified"
+5110,"General symptoms, unspecified"
+5111,Loss of consciousness-not heat related
+5112,"Convulsions, seizures"
+5113,Malaise and fatigue
+5114,Dizziness-general
+5115,"Inflammation, swelling-general"
+5118,Multiple general symptoms
+5119,"General symptoms, n.e.c."
+5131,Edema (including dropsy)
+5150,"Symptoms involving cardiovascular system, unspecified"
+5151,Unspecified tachycardia (rapid heartbeat)
+5158,Multiple symptoms involving cardiovascular system
+5159,"Symptoms involving cardiovascular system, n.e.c."
+5161,Hyperventilation
+5164,Chest pain
+5169,"Symptoms involving respiratory system and chest, n.e.c."
+5174,"Abdominal pain, unspecified"
+6110,"Damage to prosthetic devices, unspecified"
+6111,Damage to artificial limb(s)
+6113,Damage to other devices
+6119,"Damage to prosthetic devices, n.e.c."
+6121,Damage to replaced joints
+6210,"Anxiety, stress, unspecified"
+6213,Anxiety or panic disorder
+6219,"Anxiety, stress, n.e.c."
+9999,Nonclassifiable

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Отрасли · OSHA</title>
+  <meta name="description" content="В каких отраслях больше всего тяжёлых производственных травм в США и как их число изменилось с 2015 года.">
+  <script>try{var t=localStorage.getItem('report-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">TP</span><span class="brand-text">Тяжёлые травмы · OSHA</span></a>
+      <nav class="nav" aria-label="Дашборды">
+        <a href="index.html">Обзор</a>
+        <a href="01_body_parts.html">Части тела</a>
+        <a href="02_sources.html">Источники</a>
+        <a href="03_industries.html" aria-current="page">Отрасли</a>
+        <a href="04_seasons.html">Сезоны</a>
+        <a href="05_nature.html">Типы травм</a>
+      </nav>
+      <button type="button" class="theme-btn" aria-label="Тема"></button>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Дашборд 3 · Отрасли</p>
+      <h1>В каких отраслях больше всего тяжёлых травм</h1>
+      <p class="lede">Отрасль — по коду NAICS: две цифры — сектор, три — подсектор. Это абсолютные числа случаев: данных о численности работников в базе нет, поэтому большой сектор не обязательно опаснее маленького.</p>
+    </header>
+
+    <section class="grid kpis" id="kpis" aria-label="Ключевые показатели"></section>
+
+    <div class="grid cols-2">
+      <section class="card" id="card-sectors" aria-labelledby="h-sectors">
+        <div class="card-head">
+          <div>
+            <h2 id="h-sectors">Топ-15 секторов экономики</h2>
+            <p class="sub">Число тяжёлых травм и доля от всех случаев</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Секторы 31–33, 44–45 и 48–49 объединены</span><span><code>03_1_sectors.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-subsectors" aria-labelledby="h-subsectors">
+        <div class="card-head">
+          <div>
+            <h2 id="h-subsectors">Топ-15 подсекторов</h2>
+            <p class="sub">Три цифры NAICS<span class="screen-only"> · в подсказке — сектор</span></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Около 10% кодов — из старых редакций NAICS</span><span><code>03_2_top_subsectors.csv</code></span></div>
+      </section>
+    </div>
+
+    <div class="grid cols-2">
+      <section class="card" id="card-amputation" aria-labelledby="h-amputation">
+        <div class="card-head">
+          <div>
+            <h2 id="h-amputation">Доля ампутаций по секторам</h2>
+            <p class="sub" id="sub-amputation"></p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div id="amputation-legend"></div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span><span class="screen-only">95% доверительный интервал Уилсона — в подсказке и таблице</span><span class="print-only">95% доверительный интервал Уилсона — в таблице</span></span><span><code>03_4_severity_by_sector.csv</code></span></div>
+      </section>
+
+      <section class="card" id="card-change" aria-labelledby="h-change">
+        <div class="card-head">
+          <div>
+            <h2 id="h-change">Как изменилось число травм с 2015 года</h2>
+            <p class="sub">Случаев в месяц: 2024–2025 к 2015–2016, линия — 95% ДИ</p>
+          </div>
+          <div class="seg" role="group" aria-label="Вид">
+            <button type="button" data-view="chart" aria-pressed="true">График</button>
+            <button type="button" data-view="table" aria-pressed="false">Таблица</button>
+          </div>
+        </div>
+        <div id="change-legend"></div>
+        <div class="chart"></div>
+        <div class="table-wrap" hidden></div>
+        <div class="card-foot"><span>Отношение частот Пуассона; секторы от 500 случаев</span><span><code>09_5_sector_change.csv</code></span></div>
+      </section>
+    </div>
+
+    <section class="card insights" aria-labelledby="h-insights">
+      <div class="card-head"><h2 id="h-insights">Главное</h2></div>
+      <ol id="insights"></ol>
+      <div class="note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        <div>
+          <p>Снижение числа травм не обязательно означает, что профилактика сработала: оно может объясняться меньшей занятостью в секторе или неполной отчётностью. Штаты с собственными программами охраны труда (State Plan) представлены неполно.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Данные: OSHA Severe Injury Reports · <span id="period"></span></span>
+      <span id="built"></span>
+    </footer>
+  </main>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/charts.js"></script>
+  <script>
+    (function () {
+      const D = window.REPORT_DATA;
+      const I = D.industries;
+      const { fmt, casesWord, h, tt, rich, kpi } = Report;
+      const TOP_N = 15;
+
+      document.getElementById('period').textContent = D.meta.period;
+      document.getElementById('built').textContent = `Собрано ${D.meta.built} · Report/build.py`;
+
+      const sectors = I.sectors.filter((s) => /^\d/.test(s.code) && s.code !== '99');
+      const top3 = sectors.slice(0, 3);
+      const manufacturing = I.severity.find((s) => s.code === '31-33');
+      const manufacturingChange = I.change.find((s) => s.code === '31-33');
+      const pct0 = (x) => fmt.signed(x, 0) + '%';
+
+      // ---------- KPI ----------
+      document.getElementById('kpis').append(
+        kpi({ label: sectors[0].ru, value: fmt.num(sectors[0].pct), unit: '%', note: `${fmt.int(sectors[0].cases)} ${casesWord(sectors[0].cases)} · крупнейший сектор` }),
+        kpi({ label: 'Три крупнейших сектора', value: fmt.num(top3.reduce((a, s) => a + s.pct, 0)), unit: '%', note: 'обработка, строительство, транспорт и склады' }),
+        kpi({ label: 'Ампутации в обработке', value: fmt.num(manufacturing.amputation), unit: '%', note: `случаев сектора; по всем отраслям — ${fmt.pct(I.amputationAll)}` }),
+        kpi({ label: 'Изменение с 2015–2016', value: fmt.signed(I.totalChange), unit: '%', note: `случаев в месяц по всем отраслям; в обработке ${pct0(manufacturingChange.pct)}` })
+      );
+
+      // ---------- Секторы и подсекторы ----------
+      const ranked = (id, rows, tipExtra) =>
+        Report.card(id, {
+          render: (el) =>
+            Report.hbar(el, {
+              rows: rows.slice(0, TOP_N).map((r, i) => ({
+                data: r,
+                rank: i + 1,
+                label: r.ru,
+                values: [{ value: r.cases, color: 'var(--c1)', text: fmt.int(r.cases), extra: fmt.pct(r.pct) }],
+              })),
+              tip: ({ data: r }) => [tt.title(r.ru), tt.sub(r.en), tt.kv('Случаев', fmt.int(r.cases)), tt.kv('Доля от всех травм', fmt.pct(r.pct)), ...tipExtra(r)],
+            }),
+          table: {
+            columns: [
+              { label: '№', num: true, value: (r) => String(rows.indexOf(r) + 1) },
+              { label: 'Код NAICS', value: (r) => r.code },
+              { label: 'Название', value: (r) => r.ru, sub: (r) => r.en },
+              { label: 'Случаев', num: true, value: (r) => fmt.int(r.cases) },
+              { label: 'Доля', num: true, value: (r) => fmt.pct(r.pct) },
+            ],
+            rows,
+          },
+        });
+      ranked('card-sectors', I.sectors, (r) => [tt.kv('Код NAICS', r.code)]);
+      ranked('card-subsectors', I.subsectors, (r) => [tt.kv('Сектор', r.sector), tt.kv('Код NAICS', r.code)]);
+
+      // ---------- Ампутации по секторам ----------
+      const above = (s) => s.amputation > I.amputationAll;
+      document.getElementById('sub-amputation').textContent = `% случаев с ампутацией · в среднем по всем отраслям ${fmt.pct(I.amputationAll)}`;
+      document.getElementById('amputation-legend').append(
+        Report.legend([
+          { key: 'above', label: 'Выше среднего', color: 'var(--c2)' },
+          { key: 'below', label: 'Ниже среднего', color: 'var(--other)' },
+        ])
+      );
+      Report.card('card-amputation', {
+        render: (el) =>
+          Report.hbar(el, {
+            rank: false,
+            reserve: '3.4rem',
+            rows: I.severity.map((s) => ({
+              data: s,
+              label: s.ru,
+              values: [{ value: s.amputation, color: above(s) ? 'var(--c2)' : 'var(--other)', text: fmt.pct(s.amputation) }],
+            })),
+            tip: ({ data: s }) => [
+              tt.title(s.ru),
+              tt.sub(s.en),
+              tt.kv('Ампутация', fmt.pct(s.amputation)),
+              tt.kv('95% ДИ', `${fmt.num(s.ampLow)}–${fmt.pct(s.ampHigh)}`),
+              tt.kv('Госпитализация', fmt.pct(s.hospitalized)),
+              tt.kv('Случаев', fmt.int(s.cases)),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'Сектор', value: (s) => s.ru, sub: (s) => s.en },
+            { label: 'Случаев', num: true, value: (s) => fmt.int(s.cases) },
+            { label: 'Ампутация', num: true, value: (s) => fmt.pct(s.amputation) },
+            { label: '95% ДИ', num: true, value: (s) => `${fmt.num(s.ampLow)}–${fmt.num(s.ampHigh)}` },
+            { label: 'Госпитализация', num: true, value: (s) => fmt.pct(s.hospitalized) },
+          ],
+          rows: I.severity,
+        },
+      });
+
+      // ---------- Изменение с 2015–2016 ----------
+      const VERDICT = {
+        'Снижение — профилактика помогла': { label: 'Значимое снижение', color: 'var(--c1)' },
+        'Рост — нужна профилактика': { label: 'Значимый рост', color: 'var(--c8)' },
+        'Без значимых изменений': { label: 'Без значимых изменений', color: 'var(--other)' },
+      };
+      const verdict = (c) => VERDICT[c.verdict] ?? VERDICT['Без значимых изменений'];
+      document.getElementById('change-legend').append(Report.legend(Object.values(VERDICT).map((v, i) => ({ key: String(i), ...v }))));
+      Report.card('card-change', {
+        render: (el) =>
+          Report.divbar(el, {
+            rows: I.change.map((c) => ({ ...c, label: c.ru, value: c.pct, color: verdict(c).color, text: pct0(c.pct) })),
+            ref: { value: I.totalChange, label: `все отрасли ${pct0(I.totalChange)}` },
+            ticks: [-40, -20, 0, 20, 40, 60],
+            tip: (c) => [
+              tt.title(c.ru),
+              tt.kv('Изменение', `${pct0(c.pct)} (${verdict(c).label.toLowerCase()})`),
+              tt.kv('95% ДИ', `${pct0(c.low)} … ${pct0(c.high)}`),
+              tt.kv('В месяц, 2015–2016', fmt.num(c.perMonthStart)),
+              tt.kv('В месяц, 2024–2025', fmt.num(c.perMonthEnd)),
+            ],
+          }),
+        table: {
+          columns: [
+            { label: 'Сектор', value: (c) => c.ru },
+            { label: 'В месяц, 2015–2016', num: true, value: (c) => fmt.num(c.perMonthStart) },
+            { label: 'В месяц, 2024–2025', num: true, value: (c) => fmt.num(c.perMonthEnd) },
+            { label: 'Изменение', num: true, value: (c) => pct0(c.pct) },
+            { label: '95% ДИ', num: true, value: (c) => `${pct0(c.low)} … ${pct0(c.high)}` },
+            { label: 'Вывод', value: (c) => verdict(c).label },
+          ],
+          rows: I.change,
+        },
+      });
+
+      // ---------- Выводы ----------
+      const sig = (word) => I.change.filter((c) => c.verdict.startsWith(word));
+      const list = (rows) => rows.map((c) => `${c.ru.toLowerCase()} (${pct0(c.pct)})`).join(', ');
+      const down = sig('Снижение').sort((a, b) => a.pct - b.pct).slice(0, 3);
+      const up = sig('Рост').sort((a, b) => b.pct - a.pct);
+      const sub0 = I.subsectors[0];
+      const sev = (code) => I.severity.find((s) => s.code === code);
+      const insights = [
+        `**Три сектора дают ${fmt.pct(top3.reduce((a, s) => a + s.pct, 0))} тяжёлых травм:** ${top3.map((s) => `${s.ru.toLowerCase()} (${fmt.pct(s.pct)})`).join(', ')}. ` +
+          `Среди подсекторов первое место у подсектора «${sub0.ru}» (${fmt.pct(sub0.pct)}): кровельщики, электрики, сантехники, бетонщики.`,
+        `**В обрабатывающей промышленности почти каждая вторая тяжёлая травма — ампутация** (${fmt.pct(manufacturing.amputation)} против ${fmt.pct(I.amputationAll)} по всем отраслям). ` +
+          `Дальше добыча (${fmt.pct(sev('21').amputation)}) и сельское хозяйство (${fmt.pct(sev('11').amputation)}). В строительстве (${fmt.pct(sev('23').amputation)}), транспорте (${fmt.pct(sev('48-49').amputation)}) и здравоохранении (${fmt.pct(sev('62').amputation)}) преобладают переломы от падений.`,
+        `**За десять лет число травм в месяц снизилось на ${fmt.num(Math.abs(I.totalChange))}%.** Сильнее всего значимо снизились ${list(down)}. ` +
+          (up.length ? `Значимо выросли ${list(up)}.` : ''),
+      ];
+      document.getElementById('insights').append(...insights.map((t) => h('li', null, rich(t))));
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿division,name_ru,name_en,cases,pct_of_all,pct_hospitalized,hosp_ci_low,hosp_ci_high,pct_amputation,amp_ci_low,amp_ci_high
+6,Контакт с предметами и оборудованием,Contact with objects and equipment,48445,45.7,60.12,59.69,60.56,54.46,54.01,54.9
+4,"Падения, поскальзывания, спотыкания","Falls, slips, trips",32713,30.86,99.26,99.16,99.34,1.13,1.02,1.25
+2,Транспортные происшествия,Transportation incidents,9402,8.87,95.75,95.32,96.14,8.87,8.31,9.46
+5,Воздействие вредных веществ и среды,Exposure to harmful substances or environments,8691,8.2,99.91,99.82,99.95,0.52,0.39,0.69
+1,"Насилие, травмы от людей и животных","Violence, injuries by persons or animals",2343,2.21,97.4,96.67,97.97,3.84,3.14,4.7
+3,Пожары и взрывы,Fires and explosions,1864,1.76,99.57,99.16,99.78,1.98,1.44,2.72
+7,Перенапряжение и реакция организма,Overexertion and bodily reaction,1709,1.61,100.0,99.78,100.0,0.23,0.09,0.6
+9,Не классифицировано,Nonclassifiable,829,0.78,85.89,83.35,88.09,23.88,21.11,26.9

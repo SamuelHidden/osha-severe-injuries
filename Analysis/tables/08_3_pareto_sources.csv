@@ -1,0 +1,213 @@
+﻿,title,codes,cases,pct,cum_pct,source_ru
+1,"Floor, n.e.c.",6629,5035,4.75,4.75,Пол (прочее)
+2,"Forklift, order picker, platform truck-powered",8621,4600,4.34,9.09,"Погрузчик (вилочный, комплектовщик)"
+3,Nonclassifiable,9999,2780,2.62,11.71,Не классифицировано
+4,"Floors, walkways, ground surfaces, unspecified",660,2704,2.55,14.26,"Полы, проходы, поверхность земли"
+5,Heat-environmental,"9262, 9542",2614,2.47,16.73,Жара (окружающая среда)
+6,"Machinery, unspecified",30,1930,1.82,18.55,Машины (не уточнено)
+7,Other constructed surface,6624,1916,1.81,20.36,Прочие искусственные покрытия
+8,Step ladders,"733, 7422",1433,1.35,21.71,Стремянки
+9,"Ladders, unspecified",740,1357,1.28,22.99,Лестницы (не уточнено)
+10,Pallet jack-powered,8623,1319,1.24,24.23,Электрическая паллетная тележка
+11,"Movable ladders, unspecified",7420,1311,1.24,25.47,Переносные лестницы
+12,"Semi, tractor-trailer, tanker truck",8421,1043,0.98,26.46,"Седельный тягач, фура, цистерна"
+13,"Scaffolds-staging, unspecified",6340,933,0.88,27.34,Строительные леса
+14,"Metal, woodworking, and special material machinery, unspecified",350,916,0.86,28.2,Металло- и деревообрабатывающие станки
+15,"Truck-motorized freight hauling and utility, unspecified",8420,913,0.86,29.06,Грузовик (не уточнено)
+16,Butchering machinery,"3615, 3715",912,0.86,29.92,Оборудование для разделки мяса
+17,"Roofs, unspecified","6530, 6540",909,0.86,30.78,Крыши
+18,"Highway vehicle, motorized, unspecified",840,777,0.73,31.51,Автомобиль дорожный (не уточнено)
+19,Conveyors-belt,3421,735,0.69,32.21,Ленточные конвейеры
+20,"Bodily motion or position of injured, ill worker",562,726,0.68,32.89,Движение или поза самого работника
+21,"Boxes, crates, cartons","2112, 2114",694,0.65,33.55,"Ящики, коробки"
+22,"Power lines, transformers, convertors","4415, 4612",650,0.61,34.16,"ЛЭП, трансформаторы, преобразователи"
+23,"Conveyors-powered, unspecified",3420,644,0.61,34.77,Конвейеры приводные
+24,"Floor, unspecified",6620,641,0.6,35.37,Пол (не уточнено)
+25,"Sawing machinery-stationary, n.e.c.",3579,640,0.6,35.97,Стационарные пильные станки
+26,Table saws,3573,638,0.6,36.58,Настольные циркулярные пилы
+27,"Ramps, loading docks, dock plates",6692,635,0.6,37.18,"Пандусы, погрузочные платформы"
+28,"Stairs, steps-indoors",6611,635,0.6,37.78,"Лестницы, ступени в помещении"
+29,"Doors, except garage and vehicle",6511,624,0.59,38.36,Двери (кроме гаражных и автомобильных)
+30,Trailers,483,620,0.58,38.95,Прицепы
+31,Extension ladders,"731, 7421",613,0.58,39.53,Выдвижные лестницы
+32,"Metal, woodworking, and special material machinery, n.e.c.",3599,602,0.57,40.09,Металло- и деревообрабатывающие станки (прочее)
+33,Portable ladders and stairs unspecified,730,590,0.56,40.65,Переносные лестницы и трапы
+34,"Special process machinery, n.e.c.",3799,577,0.54,41.2,Специальное технологическое оборудование
+35,"Parking lot, unspecified",6660,576,0.54,41.74,Парковка
+36,"Food and beverage processing machinery-specialized, n.e.c.",3719,571,0.54,42.28,Оборудование пищевых производств
+37,"Saws-powered, except chainsaws",7224,571,0.54,42.82,Электропилы (кроме цепных)
+38,"Pipes, ducts, tubing, unspecified","4120, 4220",570,0.54,43.35,"Трубы, воздуховоды"
+39,Oil drilling rigs and machinery,3244,563,0.53,43.89,Нефтяные буровые установки
+40,"Machine and appliance parts, n.e.c.",4429,556,0.52,44.41,Детали машин и приборов
+41,"Parts and materials, unspecified",40,556,0.52,44.93,Детали и материалы (не уточнено)
+42,"Stairs, steps, unspecified",6610,537,0.51,45.44,"Лестницы, ступени (не уточнено)"
+43,"Vehicle and mobile equipment parts, n.e.c.","479, 489",522,0.49,45.93,Детали транспорта и самоходной техники
+44,"Aerial lifts, scissor lifts-except truck-mounted",3467,512,0.48,46.42,"Подъёмники, ножничные подъёмники"
+45,"Packaging, wrapping, bundling machinery","3632, 3732",512,0.48,46.9,Упаковочное оборудование
+46,"Skids, pallets","216, 217",468,0.44,47.34,"Поддоны, паллеты"
+47,Automobile,"8413, 8442",465,0.44,47.78,Легковой автомобиль
+48,"Structural elements, n.e.c.",659,465,0.44,48.22,Элементы конструкций (прочее)
+49,"Stamping machinery, presses except printing",3521,462,0.44,48.65,Штамповочные прессы
+50,"Cart, dolly, hand truck-nonpowered",871,462,0.44,49.09,Ручные тележки
+51,Patient,"574, 5732",456,0.43,49.52,Пациент
+52,Water,9521,455,0.43,49.95,Вода
+53,"Switchboards, switches, fuses",4417,453,0.43,50.38,"Щиты, выключатели, предохранители"
+54,Delivery truck or van,8426,447,0.42,50.8,"Развозной грузовик, фургон"
+55,"Cranes, unspecified",3430,446,0.42,51.22,Краны
+56,"Reels, rolls, spools, coils, cones",2133,420,0.4,51.62,"Катушки, рулоны, бобины"
+57,Beams-unattached metal,4133,405,0.38,52.0,Металлические балки
+58,Existing floor opening,6621,394,0.37,52.37,Проём в полу
+59,Parking lot-paved,6662,390,0.37,52.74,Парковка (с покрытием)
+60,"Industrial vehicle, material hauling and transport-powered, n.e.c",8629,386,0.36,53.1,Промышленный транспорт (прочее)
+61,"Special process machinery, unspecified","360, 370",368,0.35,53.45,"Special process machinery, unspecified"
+62,"Presses, except printing, unspecified",3560,365,0.34,53.79,"Presses, except printing, unspecified"
+63,"Knives, unspecified or n.e.c.",7125,353,0.33,54.13,Ножи
+64,Brake presses,3562,344,0.32,54.45,Brake presses
+65,"Tanks, bins, vats-nonconfined space",2118,326,0.31,54.76,"Баки, бункеры, чаны"
+66,Band saws,3572,322,0.3,55.06,Band saws
+67,"Metal pipes, tubing",4123,319,0.3,55.36,"Metal pipes, tubing"
+68,"Dogs, canines-domestic",5152,317,0.3,55.66,"Dogs, canines-domestic"
+69,Ladders-fixed,741,317,0.3,55.96,Ladders-fixed
+70,"Skid steer loaders, mini loaders",3222,314,0.3,56.26,"Skid steer loaders, mini loaders"
+71,"Garbage, recycling, or refuse truck",8424,314,0.3,56.55,Мусоровоз
+72,Trees,"5461, 5871",301,0.28,56.84,Деревья
+73,Shearing machines,3512,299,0.28,57.12,Shearing machines
+74,"Food and beverage processing machinery-specialized, unspecified",3710,287,0.27,57.39,"Food and beverage processing machinery-specialized, unspecified"
+75,"Bundles, bales","2131, 2141",284,0.27,57.66,"Bundles, bales"
+76,"Metal plates, metal panels",4135,276,0.26,57.92,"Metal plates, metal panels"
+77,"Presses, except printing, n.e.c.",3569,274,0.26,58.18,"Presses, except printing, n.e.c."
+78,"Valves, nozzles","423, 443",274,0.26,58.44,"Клапаны, сопла"
+79,"Chemicals and chemical products, unspecified",10,272,0.26,58.69,"Chemicals and chemical products, unspecified"
+80,Pressurized water-blast,"9254, 9534",269,0.25,58.95,Pressurized water-blast
+81,"Stairs, steps-outdoors",6612,268,0.25,59.2,"Stairs, steps-outdoors"
+82,"Grinders, abraders",3541,267,0.25,59.45,"Grinders, abraders"
+83,Food slicers,"3611, 3711",265,0.25,59.7,Food slicers
+84,"Nails, brads, tacks, nuts, bolts, washers",4212,259,0.24,59.95,"Nails, brads, tacks, nuts, bolts, washers"
+85,Racks-garment and other,2214,256,0.24,60.19,"Стеллажи, вешала"
+86,"Bending, crimping machines",3511,255,0.24,60.43,"Bending, crimping machines"
+87,"Rolling mills, rolling, calendering machinery","3513, 3524",252,0.24,60.67,"Rolling mills, rolling, calendering machinery"
+88,"Golf cart, personnel transport cart",8612,251,0.24,60.9,"Golf cart, personnel transport cart"
+89,Pickup truck,8431,250,0.24,61.14,Pickup truck
+90,"Ground, n.e.c.",6639,250,0.24,61.37,"Земля, грунт"
+91,"Sawing machinery-stationary, unspecified",3570,246,0.23,61.61,"Sawing machinery-stationary, unspecified"
+92,"Truck-motorized freight hauling and utility, n.e.c",8429,242,0.23,61.83,"Truck-motorized freight hauling and utility, n.e.c"
+93,"Boom truck, bucket or basket hoist truck",8422,239,0.23,62.06,"Boom truck, bucket or basket hoist truck"
+94,"Mixers, blenders, whippers-food and beverage","3614, 3714",238,0.22,62.28,"Mixers, blenders, whippers-food and beverage"
+95,"Co-worker or work associate of injured or ill worker, unspecified",5720,238,0.22,62.51,"Co-worker or work associate of injured or ill worker, unspecified"
+96,"Chains, n.e.c.",4223,235,0.22,62.73,"Chains, n.e.c."
+97,"Dies, molds, patterns","4421, 4643",234,0.22,62.95,"Dies, molds, patterns"
+98,"Conveyors belt, slot, chain",3412,230,0.22,63.17,"Конвейеры ленточные, цепные"
+99,"Ditches, channels, trenches, excavations",611,228,0.22,63.38,"Ditches, channels, trenches, excavations"
+100,Scaffolds-self-supporting staging,6342,228,0.22,63.6,Scaffolds-self-supporting staging
+101,"Excavating machinery, unspecified",3210,224,0.21,63.81,"Excavating machinery, unspecified"
+102,"Cranes-gantry, overhead, monorail, container","3426, 3436",219,0.21,64.02,"Козловые, мостовые, контейнерные краны"
+103,Dump truck,8423,218,0.21,64.22,Dump truck
+104,Roof surface,6532,217,0.2,64.43,Поверхность крыши
+105,Milling machines,3523,215,0.2,64.63,Milling machines
+106,Airport utility vehicle-powered,8624,212,0.2,64.83,Airport utility vehicle-powered
+107,"Shelves, shelving, racks",2212,210,0.2,65.03,"Полки, стеллажи"
+108,Trucks unspecified,8430,207,0.2,65.22,Грузовики (не уточнено)
+109,"ATV, all terrain vehicle",8611,206,0.19,65.42,"ATV, all terrain vehicle"
+110,"Source, secondary source unspecified",990,205,0.19,65.61,Источник не уточнён
+111,"Drums, pulleys, sheaves","454, 4423",205,0.19,65.8,"Drums, pulleys, sheaves"
+112,"Molten or hot metals, slag",452,199,0.19,65.99,"Molten or hot metals, slag"
+113,"Extruding, injecting, forming, molding machinery, unspecified",3530,198,0.19,66.18,"Extruding, injecting, forming, molding machinery, unspecified"
+114,Box cutters and razor knives,7124,198,0.19,66.37,Box cutters and razor knives
+115,Welding machinery,"3594, 3595",197,0.19,66.55,Welding machinery
+116,"Fans, blowers-wall, floor, ceiling, ventilation",3312,197,0.19,66.74,"Fans, blowers-wall, floor, ceiling, ventilation"
+117,Other client or customer,575,195,0.18,66.92,Other client or customer
+118,"Water, liquids nonchemical",4152,193,0.18,67.1,"Вода, нехимические жидкости"
+119,Pumps,3797,193,0.18,67.29,Pumps
+120,"Backhoes, trackhoes",3211,192,0.18,67.47,"Backhoes, trackhoes"
+121,Gates,"6335, 6524",191,0.18,67.65,Gates
+122,"Industrial vehicle, material hauling and transport-powered, unspecified",8620,190,0.18,67.83,"Industrial vehicle, material hauling and transport-powered, unspecified"
+123,"Electric parts, unspecified","4410, 4610",190,0.18,68.01,"Electric parts, unspecified"
+124,"Fats, oils, cooking greases",5221,187,0.18,68.18,"Fats, oils, cooking greases"
+125,Presses-printing,3753,187,0.18,68.36,Presses-printing
+126,"Material and personnel handling machinery, n.e.c.",3499,186,0.18,68.53,"Material and personnel handling machinery, n.e.c."
+127,Stacking machinery,"3472, 3493",184,0.17,68.71,Stacking machinery
+128,Carbon monoxide,"1214, 1741",183,0.17,68.88,Угарный газ
+129,"Structures and surfaces, unspecified",60,181,0.17,69.05,"Structures and surfaces, unspecified"
+130,"Material and personnel handling machinery, unspecified",340,179,0.17,69.22,"Material and personnel handling machinery, unspecified"
+131,Floor irregularity,6622,178,0.17,69.39,Floor irregularity
+132,"Banding, baling, strapping machinery","3492, 3634",175,0.17,69.55,"Banding, baling, strapping machinery"
+133,Lawn mowers-riding,3122,173,0.16,69.72,Lawn mowers-riding
+134,"Extruding, injecting, forming, molding machinery, n.e.c.",3539,172,0.16,69.88,"Extruding, injecting, forming, molding machinery, n.e.c."
+135,Curbs,6671,172,0.16,70.04,Curbs
+136,Horses and other equines,5154,169,0.16,70.2,Horses and other equines
+137,"Other semi, tractor-trailer",8434,168,0.16,70.36,"Прочие тягачи, фуры"
+138,"Boring, routing, notching machines",3525,168,0.16,70.52,"Boring, routing, notching machines"
+139,Punch presses,3563,167,0.16,70.67,Punch presses
+140,Venomous snakes,5141,166,0.16,70.83,Venomous snakes
+141,"Hoists, lifts scissor, telescoping",3435,163,0.15,70.98,"Подъёмники, ножничные и телескопические"
+142,Conveyors-chain,3423,163,0.15,71.14,Conveyors-chain
+143,Skylights,6541,162,0.15,71.29,Skylights
+144,Utility and telephone poles,6352,161,0.15,71.44,Utility and telephone poles
+145,"Cement truck, concrete mixer truck",8427,160,0.15,71.59,"Cement truck, concrete mixer truck"
+146,Extruding machinery,3532,159,0.15,71.74,Extruding machinery
+147,Hand grinders-powered,7242,159,0.15,71.89,Hand grinders-powered
+148,Drills-powered,7213,159,0.15,72.04,Drills-powered
+149,"Paper production machinery, unspecified","3640, 3740",159,0.15,72.19,"Paper production machinery, unspecified"
+150,"Bottling, canning, filling machinery","3631, 3731",158,0.15,72.34,"Bottling, canning, filling machinery"
+151,Robber,"5763, 5771",158,0.15,72.49,Robber
+152,Garage doors,6512,157,0.15,72.64,Garage doors
+153,"Sidewalks, paths, outdoor walkways, unspecified",6640,156,0.15,72.79,"Sidewalks, paths, outdoor walkways, unspecified"
+154,"Movable ladders, n.e.c.",7429,155,0.15,72.93,"Movable ladders, n.e.c."
+155,"Water vehicle, unspecified",830,155,0.15,73.08,"Water vehicle, unspecified"
+156,"Lathes, unspecified",3550,154,0.15,73.23,"Lathes, unspecified"
+157,Walls,"655, 6562",154,0.15,73.37,Стены
+158,"Sidewalk, path, outdoor walkway-paved",6642,154,0.15,73.52,"Sidewalk, path, outdoor walkway-paved"
+159,"Bars, rods, reinforcing bar (rebar)",4132,153,0.14,73.66,"Bars, rods, reinforcing bar (rebar)"
+160,Catwalks,"6344, 6346",152,0.14,73.8,Catwalks
+161,Conveyors unspecified,3410,151,0.14,73.95,Conveyors unspecified
+162,"Metal chips, particles",9413,151,0.14,74.09,"Metal chips, particles"
+163,Ceilings,"654, 6561",150,0.14,74.23,Ceilings
+164,Hoses,2122,150,0.14,74.37,Шланги
+165,"Limbs, branches-unattached","5463, 5873",150,0.14,74.51,"Limbs, branches-unattached"
+166,"Wire, cables-nonelectrical",4226,148,0.14,74.65,"Wire, cables-nonelectrical"
+167,Metalworking lathes,3551,148,0.14,74.79,Metalworking lathes
+168,"Loading docks, dock plates",658,147,0.14,74.93,"Loading docks, dock plates"
+169,"Boring, drilling, planing, milling machinery, n.e.c.",3529,146,0.14,75.07,"Boring, drilling, planing, milling machinery, n.e.c."
+170,"Porches, balconies, decks, patios",6395,145,0.14,75.21,"Porches, balconies, decks, patios"
+171,"Wood, lumber, unspecified",4150,143,0.13,75.34,"Wood, lumber, unspecified"
+172,"Textile, apparel, leather production machinery, n.e.c.","3669, 3769",143,0.13,75.48,"Textile, apparel, leather production machinery, n.e.c."
+173,"Bending, rolling, shaping machinery, n.e.c.",3519,143,0.13,75.61,"Bending, rolling, shaping machinery, n.e.c."
+174,Jacks,"344, 347",139,0.13,75.74,Jacks
+175,Saws except chainsaws,7122,133,0.13,75.87,Пилы (кроме цепных)
+176,"Bucket, front-end, end, and pay loaders",3221,132,0.12,75.99,"Bucket, front-end, end, and pay loaders"
+177,"Tires, except bike",4813,132,0.12,76.12,"Tires, except bike"
+178,Meat grinders,"3613, 3713",131,0.12,76.24,Meat grinders
+179,"Tables, worktables",2236,130,0.12,76.36,"Tables, worktables"
+180,"Vehicle trailers, trailing units",4741,130,0.12,76.48,"Vehicle trailers, trailing units"
+181,"Person, other than injured or ill worker, unspecified",570,129,0.12,76.61,"Person, other than injured or ill worker, unspecified"
+182,"Train, locomotive, rail car, unspecified",8240,128,0.12,76.73,"Train, locomotive, rail car, unspecified"
+183,"Overhead hoists, unspecified",3440,128,0.12,76.85,"Overhead hoists, unspecified"
+184,"Off-road passenger vehicles-powered, n.e.c",8619,127,0.12,76.97,"Off-road passenger vehicles-powered, n.e.c"
+185,"Structures, n.e.c.","6389, 6399",126,0.12,77.09,"Structures, n.e.c."
+186,"Lubricating greases, cutting oils",1642,125,0.12,77.2,"Lubricating greases, cutting oils"
+187,"Existing roof openings, other than skylights",6542,125,0.12,77.32,"Existing roof openings, other than skylights"
+188,"Paper production machinery, n.e.c.","3649, 3749",124,0.12,77.44,"Paper production machinery, n.e.c."
+189,"Winders, unwinders",3491,123,0.12,77.56,"Winders, unwinders"
+190,Beams and rails metal,4213,122,0.12,77.67,Beams and rails metal
+191,Chainsaws-powered,7221,121,0.11,77.79,Chainsaws-powered
+192,"Heating, cooling, and cleaning machinery and appliances, n.e.c.",339,121,0.11,77.9,"Heating, cooling, and cleaning machinery and appliances, n.e.c."
+193,Propane,"1212, 1643",119,0.11,78.01,Propane
+194,"Switchboards, panels, fuses",4615,117,0.11,78.12,"Switchboards, panels, fuses"
+195,"Drilling machines, drilling augers",3241,117,0.11,78.23,"Drilling machines, drilling augers"
+196,Plastic injection molding machinery,"3514, 3534",116,0.11,78.34,Plastic injection molding machinery
+197,"Containers-variable restraint, n.e.c.",2139,116,0.11,78.45,"Containers-variable restraint, n.e.c."
+198,"Agitators, mixers-earth, mineral",3291,115,0.11,78.56,"Agitators, mixers-earth, mineral"
+199,Sheet metal,4137,115,0.11,78.67,Sheet metal
+200,"Assailant, suspect, unspecified",5770,115,0.11,78.78,"Assailant, suspect, unspecified"
+201,"Steam, vapors-nonchemical",951,114,0.11,78.88,"Steam, vapors-nonchemical"
+202,"Hooks, shackles, magnets, clamshells",432,114,0.11,78.99,"Hooks, shackles, magnets, clamshells"
+203,"Sealing, stapling machinery",3734,112,0.11,79.1,"Sealing, stapling machinery"
+204,"Buckets, baskets, pails",2115,112,0.11,79.2,"Buckets, baskets, pails"
+205,"Cleaning and polishing agents, unspecified","1620, 1830",112,0.11,79.31,"Cleaning and polishing agents, unspecified"
+206,Planing mills,3522,112,0.11,79.41,Planing mills
+207,"Structural metal materials, n.e.c.",4139,111,0.1,79.52,"Structural metal materials, n.e.c."
+208,"Caps, lids, covers, n.e.c.",4919,111,0.1,79.62,"Caps, lids, covers, n.e.c."
+209,Stationary sawing machinery stationary n.e.c.,3559,110,0.1,79.73,Stationary sawing machinery stationary n.e.c.
+210,"Tools, instruments, and equipment, n.e.c.",799,110,0.1,79.83,"Tools, instruments, and equipment, n.e.c."
+211,Chairs,2233,110,0.1,79.94,Chairs
+212,"Agricultural and garden machinery, n.e.c.",3199,109,0.1,80.04,"Agricultural and garden machinery, n.e.c."

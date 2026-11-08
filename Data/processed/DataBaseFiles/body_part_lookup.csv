@@ -1,0 +1,206 @@
+code,title
+6,BODY SYSTEMS
+10,"Head, unspecified"
+12,Ear(s)
+18,Multiple head locations
+19,"Head, n.e.c."
+20,"Neck, except internal location of diseases or disorders"
+21,Exterior and musculoskeletal structures of the neck
+22,Internal neck structures
+28,External and internal neck locations
+30,"Trunk, unspecified"
+38,Multiple trunk locations
+39,"Trunk, n.e.c."
+40,"Upper extremities, unspecified"
+41,"Shoulder(s), including clavicle(s), scapula(e)"
+43,Wrist(s)
+49,"Upper extremities, n.e.c."
+50,"Lower extremities, unspecified"
+51,Hip joint(s)
+52,Ankle(s)
+53,Ankle(s)
+59,"Lower extremities, n.e.c."
+80,"Multiple body parts, unspecified"
+81,Head and neck
+82,"Head, neck, and trunk"
+83,Head and trunk
+84,Neck and back
+85,Shoulder(s) and back
+86,Hip(s) and leg(s)
+87,Upper and lower limb(s)
+110,"Cranial region, unspecified"
+111,Brain
+112,Scalp
+113,Skull
+118,Multiple cranial region locations
+119,"Cranial region, n.e.c."
+120,Ears and facial region unspecified
+121,Ear(s)
+122,Eye(s)
+123,"Nose, nasal cavity"
+125,"Forehead, temple(s)"
+126,Cheek(s)
+127,"Jaw, chin"
+130,"Face, unspecified"
+131,Forehead
+132,Eye(s)
+134,Cheek(s)
+135,"Jaw, chin"
+138,Multiple face locations
+139,"Face, n.e.c."
+310,"Chest, except internal location of diseases or disorders"
+311,"Internal chest location, unspecified"
+313,Heart
+315,"Lung(s), pleura"
+318,Multiple internal chest locations
+320,"Back, including spine, spinal cord, unspecified"
+321,Thoracic region
+322,Lumbar region
+323,Back sacral region
+324,Coccygeal region
+328,Multiple back regions
+330,"Abdomen, except internal location of diseases or disorders"
+331,"Internal abdominal location, unspecified"
+332,Stomach organ
+333,Spleen
+338,Multiple internal abdominal locations
+340,"Pelvic region, unspecified"
+341,Hip(s)
+342,Pelvis
+343,Buttock(s)
+344,Groin
+348,Multiple pelvic region locations
+420,"Arm(s), unspecified"
+421,Upper arm(s)
+422,Elbow(s)
+423,Forearm(s)
+428,Multiple arm locations
+429,"Arm(s), n.e.c."
+440,"Hand(s), unspecified"
+441,"Hand(s), except finger(s)"
+448,Hand(s) and finger(s)
+449,"Hand(s), n.e.c."
+480,"Multiple upper extremities locations, unspecified"
+482,Hand(s) and wrist(s)
+484,Shoulder(s) and arm(s)
+485,Shoulder(s) and wrist(s)
+489,"Multiple upper extremities locations, n.e.c."
+510,"Leg(s), unspecified"
+511,Thigh(s)
+512,Knee(s)
+513,Lower leg(s)
+519,"Leg(s), n.e.c."
+520,Leg(s) unspecified
+521,Thigh(s)
+522,Knee(s)
+523,Lower leg(s)
+530,"Foot (feet), unspecified"
+532,"Toes(s), toenail(s)"
+538,Multiple foot (feet) locations
+539,"Foot (feet), n.e.c."
+540,"Foot (feet), toe(s) unspecified"
+541,Foot (feet) excluding toes
+542,"Toes(s), toenail(s)"
+548,Foot (feet) and toe(s)
+580,"Multiple lower extremities locations, unspecified"
+582,Foot (feet) and ankle(s)
+583,Foot (feet) and ankle(s)
+584,Ankle(s) and hip(s)
+589,"Multiple lower extremities locations, n.e.c."
+811,Head and neck
+812,Head and trunk
+813,Head and extremities
+821,Neck and back
+822,Neck and shoulder
+823,Neck and upper extremities
+831,Back and shoulder
+832,Trunk and hip joint(s)
+833,Trunk and other upper extremities
+834,Trunk and other lower extremities
+841,Hands and feet
+849,Upper and lower extremities n.e.c.
+881,"Neck, shoulder, back"
+882,"Head, neck, trunk"
+883,Body systems and other part(s) of body
+888,Whole body
+891,Whole body
+899,"Multiple body parts, n.e.c."
+911,Prosthetic and orthopedic devices of the head
+912,Prosthetic and orthopedic devices of the trunk
+990,Part of body unspecified
+1240,Mouth unspecified
+1241,Lip(s)
+1243,Tooth (teeth)
+1248,Multiple mouth locations
+1282,Nose and mouth
+1289,"Other multiple ear(s), facial locations"
+1330,"Nose, except internal location of diseases or disorders"
+1360,"Mouth, unspecified"
+1361,Lip(s)
+1362,Tongue
+1363,Tooth (teeth)
+1368,Multiple mouth locations
+1369,"Mouth, n.e.c."
+3110,Exterior and musculoskeletal structures of the chest unspecified
+3112,"Rib(s), oblique area"
+3118,Multiple exterior and musculoskeletal structures of the chest
+3119,Other exterior and musculoskeletal structures of the chest n.e.c.
+3120,Internal respiratory organs unspecified
+3123,"Lung(s), pleura"
+3131,Heart
+3322,Stomach organ
+3323,Liver
+3324,Pancreas
+3328,Multiple digestive structures
+3329,Other digestive structures n.e.c.
+3330,"Intestines, peritoneum unspecified"
+3332,Small intestine
+3342,Kidney(s)
+3353,"Large intestine, colon, rectum"
+3361,Liver
+3411,Pelvis
+3412,Buttock(s)
+3451,Scrotum
+3462,Testis (testes)
+4280,"Multiple arm locations, unspecified"
+4281,Elbow(s) and arms(s)
+4289,"Multiple arm locations, n.e.c."
+4420,"Finger(s), fingernail(s), unspecified"
+4421,"Finger or thumb tip(s), nail(s)"
+4422,Fingertip(s)
+4428,Thumb(s) and finger(s)
+4429,"Finger(s), fingernail(s), n.e.c."
+4810,"Hand(s) and arm(s), unspecified"
+4811,Hand(s) and elbow(s)
+4819,"Hand(s) and arm(s), n.e.c."
+4830,"Wrist(s) and arm(s), unspecified"
+4831,Wrist(s) and elbow(s)
+4839,"Wrist(s) and arm(s), n.e.c."
+5180,"Multiple leg locations, unspecified"
+5181,Knee(s) and leg(s)
+5189,"Multiple leg locations, n.e.c."
+5280,Multiple leg locations unspecified
+5281,Knee(s) and leg(s)
+5289,Multiple leg locations n.e.c.
+5310,"Sole(s), unspecified"
+5311,Ball(s) of the foot
+5312,"Arch(es), instep(s)"
+5313,Heel(s)
+5318,Multiple sole locations
+5319,"Sole(s), n.e.c."
+5810,"Foot(feet) and leg(s), unspecified"
+5811,Foot(feet) and knee(s)
+5819,"Foot(feet) and leg(s), n.e.c."
+5820,Foot(feet) and leg(s) unspecified
+5821,Foot(feet) and knee(s)
+5829,Foot(feet) and leg(s) n.e.c.
+5830,"Ankle(s) and leg(s), unspecified"
+5831,Ankle(s) and knee(s)
+5839,"Ankle(s) and leg(s), n.e.c."
+5850,Ankle(s) and leg(s) unspecified
+5851,Ankle(s) and knee(s)
+5859,Ankle(s) and leg(s) n.e.c.
+5860,Hip(s) and leg(s) unspecified
+5861,Hip(s) and knee(s)
+5869,Hip(s) and leg(s) n.e.c.
+9999,Nonclassifiable

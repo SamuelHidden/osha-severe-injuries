@@ -1,0 +1,24 @@
+# Секреты: параметры подключения к БД (шаблон — Analysis/.env.example)
+.env
+
+# Исходные выгрузки: 57 МБ, скачиваются по ссылкам из README
+Data/Raw/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Системные и редакторские файлы
+.DS_Store
+.idea/
+
+# Дубликаты графиков и архивы (оригиналы — Analysis/figures/ru и en)
+Analysis/figures/ru 2/
+Analysis/figures/*.zip
+
+# Черновики статей и локальные настройки редактора
+Article/
+.vscode/
